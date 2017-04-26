@@ -1,0 +1,3404 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="45" passed="45">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="0" started-at="2017-04-26T06:38:02Z" finished-at="2017-04-26T06:38:02Z">
+    <groups>
+    </groups>
+  </suite> <!-- Suite -->
+  <suite name="APITestSuite" duration-ms="30514" started-at="2017-04-26T06:37:32Z" finished-at="2017-04-26T06:38:02Z">
+    <groups>
+    </groups>
+    <test name="BasicAPIResultMultipleExtract1" duration-ms="30514" started-at="2017-04-26T06:37:32Z" finished-at="2017-04-26T06:38:02Z">
+      <class name="com.stta.BasicAPITestSuite.BasicAPIMultipleResultExtract1">
+        <test-method status="PASS" signature="checkSuiteToRun()[pri:0, instance:com.stta.BasicAPITestSuite.BasicAPIMultipleResultExtract1@59e5ddf]" name="checkSuiteToRun" is-config="true" duration-ms="189" started-at="2017-04-26T12:07:31Z" finished-at="2017-04-26T12:07:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSuiteToRun -->
+        <test-method status="PASS" signature="checkCaseToRun()[pri:0, instance:com.stta.BasicAPITestSuite.BasicAPIMultipleResultExtract1@59e5ddf]" name="checkCaseToRun" is-config="true" duration-ms="23" started-at="2017-04-26T12:07:32Z" finished-at="2017-04-26T12:07:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCaseToRun -->
+        <test-method status="PASS" signature="BasicAPIMultipleResultExtract1Test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.stta.BasicAPITestSuite.BasicAPIMultipleResultExtract1@59e5ddf]" name="BasicAPIMultipleResultExtract1Test" duration-ms="2413" started-at="2017-04-26T12:07:32Z" data-provider="BasicAPIMultipleResultExtract1Data" finished-at="2017-04-26T12:07:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://api.bincodes.com/bin/?format=json&api_key=979c790d762d503c815f33cd4d6d8104&bin=537903]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ExtractDetails]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[537903]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[AXIS BANK, LTD.]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[MASTERCARD]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[DEBIT]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[PREPAID BUSINESS]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[INDIA]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[IN]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[HTTP://WWW.AXISBANK.COM/]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[(022) 2425 2525]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BasicAPIMultipleResultExtract1Test -->
+        <test-method status="PASS" signature="reporterDataResults()[pri:0, instance:com.stta.BasicAPITestSuite.BasicAPIMultipleResultExtract1@59e5ddf]" name="reporterDataResults" is-config="true" duration-ms="75" started-at="2017-04-26T12:07:34Z" finished-at="2017-04-26T12:07:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporterDataResults -->
+        <test-method status="PASS" signature="BasicAPIMultipleResultExtract1Test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.stta.BasicAPITestSuite.BasicAPIMultipleResultExtract1@59e5ddf]" name="BasicAPIMultipleResultExtract1Test" duration-ms="533" started-at="2017-04-26T12:07:34Z" data-provider="BasicAPIMultipleResultExtract1Data" finished-at="2017-04-26T12:07:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://api.bincodes.com/bin/?format=json&api_key=979c790d762d503c815f33cd4d6d8104&bin=537904]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ExtractDetails]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[537904]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[AXIS BANK, LTD.]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[MASTERCARD]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[DEBIT]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[PREPAID BUSINESS]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[INDIA]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[IN]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[HTTP://WWW.AXISBANK.COM/]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[(022) 2425 2525]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BasicAPIMultipleResultExtract1Test -->
+        <test-method status="PASS" signature="reporterDataResults()[pri:0, instance:com.stta.BasicAPITestSuite.BasicAPIMultipleResultExtract1@59e5ddf]" name="reporterDataResults" is-config="true" duration-ms="49" started-at="2017-04-26T12:07:35Z" finished-at="2017-04-26T12:07:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporterDataResults -->
+        <test-method status="PASS" signature="BasicAPIMultipleResultExtract1Test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.stta.BasicAPITestSuite.BasicAPIMultipleResultExtract1@59e5ddf]" name="BasicAPIMultipleResultExtract1Test" duration-ms="470" started-at="2017-04-26T12:07:35Z" data-provider="BasicAPIMultipleResultExtract1Data" finished-at="2017-04-26T12:07:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://api.bincodes.com/bin/?format=json&api_key=979c790d762d503c815f33cd4d6d8104&bin=537905]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ExtractDetails]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[537905]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[AXIS BANK, LTD.]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[MASTERCARD]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[DEBIT]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[PREPAID]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[INDIA]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[IN]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[HTTP://WWW.AXISBANK.COM/]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[(022) 2425 2525]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BasicAPIMultipleResultExtract1Test -->
+        <test-method status="PASS" signature="reporterDataResults()[pri:0, instance:com.stta.BasicAPITestSuite.BasicAPIMultipleResultExtract1@59e5ddf]" name="reporterDataResults" is-config="true" duration-ms="46" started-at="2017-04-26T12:07:35Z" finished-at="2017-04-26T12:07:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporterDataResults -->
+        <test-method status="PASS" signature="BasicAPIMultipleResultExtract1Test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.stta.BasicAPITestSuite.BasicAPIMultipleResultExtract1@59e5ddf]" name="BasicAPIMultipleResultExtract1Test" duration-ms="620" started-at="2017-04-26T12:07:35Z" data-provider="BasicAPIMultipleResultExtract1Data" finished-at="2017-04-26T12:07:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://api.bincodes.com/bin/?format=json&api_key=979c790d762d503c815f33cd4d6d8104&bin=537906]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ExtractDetails]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BasicAPIMultipleResultExtract1Test -->
+        <test-method status="PASS" signature="reporterDataResults()[pri:0, instance:com.stta.BasicAPITestSuite.BasicAPIMultipleResultExtract1@59e5ddf]" name="reporterDataResults" is-config="true" duration-ms="38" started-at="2017-04-26T12:07:36Z" finished-at="2017-04-26T12:07:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporterDataResults -->
+        <test-method status="PASS" signature="BasicAPIMultipleResultExtract1Test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.stta.BasicAPITestSuite.BasicAPIMultipleResultExtract1@59e5ddf]" name="BasicAPIMultipleResultExtract1Test" duration-ms="588" started-at="2017-04-26T12:07:36Z" data-provider="BasicAPIMultipleResultExtract1Data" finished-at="2017-04-26T12:07:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://api.bincodes.com/bin/?format=json&api_key=979c790d762d503c815f33cd4d6d8104&bin=537907]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ExtractDetails]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BasicAPIMultipleResultExtract1Test -->
+        <test-method status="PASS" signature="reporterDataResults()[pri:0, instance:com.stta.BasicAPITestSuite.BasicAPIMultipleResultExtract1@59e5ddf]" name="reporterDataResults" is-config="true" duration-ms="36" started-at="2017-04-26T12:07:37Z" finished-at="2017-04-26T12:07:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporterDataResults -->
+        <test-method status="PASS" signature="BasicAPIMultipleResultExtract1Test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.stta.BasicAPITestSuite.BasicAPIMultipleResultExtract1@59e5ddf]" name="BasicAPIMultipleResultExtract1Test" duration-ms="494" started-at="2017-04-26T12:07:37Z" data-provider="BasicAPIMultipleResultExtract1Data" finished-at="2017-04-26T12:07:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://api.bincodes.com/bin/?format=json&api_key=979c790d762d503c815f33cd4d6d8104&bin=537908]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ExtractDetails]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BasicAPIMultipleResultExtract1Test -->
+        <test-method status="PASS" signature="reporterDataResults()[pri:0, instance:com.stta.BasicAPITestSuite.BasicAPIMultipleResultExtract1@59e5ddf]" name="reporterDataResults" is-config="true" duration-ms="38" started-at="2017-04-26T12:07:37Z" finished-at="2017-04-26T12:07:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporterDataResults -->
+        <test-method status="PASS" signature="BasicAPIMultipleResultExtract1Test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.stta.BasicAPITestSuite.BasicAPIMultipleResultExtract1@59e5ddf]" name="BasicAPIMultipleResultExtract1Test" duration-ms="683" started-at="2017-04-26T12:07:37Z" data-provider="BasicAPIMultipleResultExtract1Data" finished-at="2017-04-26T12:07:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://api.bincodes.com/bin/?format=json&api_key=979c790d762d503c815f33cd4d6d8104&bin=537909]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ExtractDetails]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BasicAPIMultipleResultExtract1Test -->
+        <test-method status="PASS" signature="reporterDataResults()[pri:0, instance:com.stta.BasicAPITestSuite.BasicAPIMultipleResultExtract1@59e5ddf]" name="reporterDataResults" is-config="true" duration-ms="34" started-at="2017-04-26T12:07:38Z" finished-at="2017-04-26T12:07:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporterDataResults -->
+        <test-method status="PASS" signature="BasicAPIMultipleResultExtract1Test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.stta.BasicAPITestSuite.BasicAPIMultipleResultExtract1@59e5ddf]" name="BasicAPIMultipleResultExtract1Test" duration-ms="630" started-at="2017-04-26T12:07:38Z" data-provider="BasicAPIMultipleResultExtract1Data" finished-at="2017-04-26T12:07:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://api.bincodes.com/bin/?format=json&api_key=979c790d762d503c815f33cd4d6d8104&bin=537910]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ExtractDetails]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BasicAPIMultipleResultExtract1Test -->
+        <test-method status="PASS" signature="reporterDataResults()[pri:0, instance:com.stta.BasicAPITestSuite.BasicAPIMultipleResultExtract1@59e5ddf]" name="reporterDataResults" is-config="true" duration-ms="47" started-at="2017-04-26T12:07:38Z" finished-at="2017-04-26T12:07:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporterDataResults -->
+        <test-method status="PASS" signature="BasicAPIMultipleResultExtract1Test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.stta.BasicAPITestSuite.BasicAPIMultipleResultExtract1@59e5ddf]" name="BasicAPIMultipleResultExtract1Test" duration-ms="486" started-at="2017-04-26T12:07:38Z" data-provider="BasicAPIMultipleResultExtract1Data" finished-at="2017-04-26T12:07:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://api.bincodes.com/bin/?format=json&api_key=979c790d762d503c815f33cd4d6d8104&bin=537911]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ExtractDetails]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BasicAPIMultipleResultExtract1Test -->
+        <test-method status="PASS" signature="reporterDataResults()[pri:0, instance:com.stta.BasicAPITestSuite.BasicAPIMultipleResultExtract1@59e5ddf]" name="reporterDataResults" is-config="true" duration-ms="30" started-at="2017-04-26T12:07:39Z" finished-at="2017-04-26T12:07:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporterDataResults -->
+        <test-method status="PASS" signature="BasicAPIMultipleResultExtract1Test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.stta.BasicAPITestSuite.BasicAPIMultipleResultExtract1@59e5ddf]" name="BasicAPIMultipleResultExtract1Test" duration-ms="598" started-at="2017-04-26T12:07:39Z" data-provider="BasicAPIMultipleResultExtract1Data" finished-at="2017-04-26T12:07:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://api.bincodes.com/bin/?format=json&api_key=979c790d762d503c815f33cd4d6d8104&bin=537912]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ExtractDetails]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BasicAPIMultipleResultExtract1Test -->
+        <test-method status="PASS" signature="reporterDataResults()[pri:0, instance:com.stta.BasicAPITestSuite.BasicAPIMultipleResultExtract1@59e5ddf]" name="reporterDataResults" is-config="true" duration-ms="30" started-at="2017-04-26T12:07:40Z" finished-at="2017-04-26T12:07:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporterDataResults -->
+        <test-method status="PASS" signature="BasicAPIMultipleResultExtract1Test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.stta.BasicAPITestSuite.BasicAPIMultipleResultExtract1@59e5ddf]" name="BasicAPIMultipleResultExtract1Test" duration-ms="724" started-at="2017-04-26T12:07:40Z" data-provider="BasicAPIMultipleResultExtract1Data" finished-at="2017-04-26T12:07:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://api.bincodes.com/bin/?format=json&api_key=979c790d762d503c815f33cd4d6d8104&bin=537913]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ExtractDetails]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BasicAPIMultipleResultExtract1Test -->
+        <test-method status="PASS" signature="reporterDataResults()[pri:0, instance:com.stta.BasicAPITestSuite.BasicAPIMultipleResultExtract1@59e5ddf]" name="reporterDataResults" is-config="true" duration-ms="41" started-at="2017-04-26T12:07:40Z" finished-at="2017-04-26T12:07:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporterDataResults -->
+        <test-method status="PASS" signature="BasicAPIMultipleResultExtract1Test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.stta.BasicAPITestSuite.BasicAPIMultipleResultExtract1@59e5ddf]" name="BasicAPIMultipleResultExtract1Test" duration-ms="612" started-at="2017-04-26T12:07:40Z" data-provider="BasicAPIMultipleResultExtract1Data" finished-at="2017-04-26T12:07:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://api.bincodes.com/bin/?format=json&api_key=979c790d762d503c815f33cd4d6d8104&bin=537914]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ExtractDetails]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BasicAPIMultipleResultExtract1Test -->
+        <test-method status="PASS" signature="reporterDataResults()[pri:0, instance:com.stta.BasicAPITestSuite.BasicAPIMultipleResultExtract1@59e5ddf]" name="reporterDataResults" is-config="true" duration-ms="37" started-at="2017-04-26T12:07:41Z" finished-at="2017-04-26T12:07:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporterDataResults -->
+        <test-method status="PASS" signature="BasicAPIMultipleResultExtract1Test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.stta.BasicAPITestSuite.BasicAPIMultipleResultExtract1@59e5ddf]" name="BasicAPIMultipleResultExtract1Test" duration-ms="591" started-at="2017-04-26T12:07:41Z" data-provider="BasicAPIMultipleResultExtract1Data" finished-at="2017-04-26T12:07:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://api.bincodes.com/bin/?format=json&api_key=979c790d762d503c815f33cd4d6d8104&bin=537915]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ExtractDetails]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BasicAPIMultipleResultExtract1Test -->
+        <test-method status="PASS" signature="reporterDataResults()[pri:0, instance:com.stta.BasicAPITestSuite.BasicAPIMultipleResultExtract1@59e5ddf]" name="reporterDataResults" is-config="true" duration-ms="30" started-at="2017-04-26T12:07:42Z" finished-at="2017-04-26T12:07:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporterDataResults -->
+        <test-method status="PASS" signature="BasicAPIMultipleResultExtract1Test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.stta.BasicAPITestSuite.BasicAPIMultipleResultExtract1@59e5ddf]" name="BasicAPIMultipleResultExtract1Test" duration-ms="597" started-at="2017-04-26T12:07:42Z" data-provider="BasicAPIMultipleResultExtract1Data" finished-at="2017-04-26T12:07:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://api.bincodes.com/bin/?format=json&api_key=979c790d762d503c815f33cd4d6d8104&bin=538426]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ExtractDetails]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BasicAPIMultipleResultExtract1Test -->
+        <test-method status="PASS" signature="reporterDataResults()[pri:0, instance:com.stta.BasicAPITestSuite.BasicAPIMultipleResultExtract1@59e5ddf]" name="reporterDataResults" is-config="true" duration-ms="33" started-at="2017-04-26T12:07:42Z" finished-at="2017-04-26T12:07:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporterDataResults -->
+        <test-method status="PASS" signature="BasicAPIMultipleResultExtract1Test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.stta.BasicAPITestSuite.BasicAPIMultipleResultExtract1@59e5ddf]" name="BasicAPIMultipleResultExtract1Test" duration-ms="602" started-at="2017-04-26T12:07:42Z" data-provider="BasicAPIMultipleResultExtract1Data" finished-at="2017-04-26T12:07:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://api.bincodes.com/bin/?format=json&api_key=979c790d762d503c815f33cd4d6d8104&bin=538761]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ExtractDetails]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BasicAPIMultipleResultExtract1Test -->
+        <test-method status="PASS" signature="reporterDataResults()[pri:0, instance:com.stta.BasicAPITestSuite.BasicAPIMultipleResultExtract1@59e5ddf]" name="reporterDataResults" is-config="true" duration-ms="38" started-at="2017-04-26T12:07:43Z" finished-at="2017-04-26T12:07:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporterDataResults -->
+        <test-method status="PASS" signature="BasicAPIMultipleResultExtract1Test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.stta.BasicAPITestSuite.BasicAPIMultipleResultExtract1@59e5ddf]" name="BasicAPIMultipleResultExtract1Test" duration-ms="601" started-at="2017-04-26T12:07:43Z" data-provider="BasicAPIMultipleResultExtract1Data" finished-at="2017-04-26T12:07:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://api.bincodes.com/bin/?format=json&api_key=979c790d762d503c815f33cd4d6d8104&bin=538763]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ExtractDetails]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BasicAPIMultipleResultExtract1Test -->
+        <test-method status="PASS" signature="reporterDataResults()[pri:0, instance:com.stta.BasicAPITestSuite.BasicAPIMultipleResultExtract1@59e5ddf]" name="reporterDataResults" is-config="true" duration-ms="31" started-at="2017-04-26T12:07:44Z" finished-at="2017-04-26T12:07:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporterDataResults -->
+        <test-method status="PASS" signature="BasicAPIMultipleResultExtract1Test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.stta.BasicAPITestSuite.BasicAPIMultipleResultExtract1@59e5ddf]" name="BasicAPIMultipleResultExtract1Test" duration-ms="612" started-at="2017-04-26T12:07:44Z" data-provider="BasicAPIMultipleResultExtract1Data" finished-at="2017-04-26T12:07:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://api.bincodes.com/bin/?format=json&api_key=979c790d762d503c815f33cd4d6d8104&bin=538766]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ExtractDetails]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BasicAPIMultipleResultExtract1Test -->
+        <test-method status="PASS" signature="reporterDataResults()[pri:0, instance:com.stta.BasicAPITestSuite.BasicAPIMultipleResultExtract1@59e5ddf]" name="reporterDataResults" is-config="true" duration-ms="30" started-at="2017-04-26T12:07:44Z" finished-at="2017-04-26T12:07:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporterDataResults -->
+        <test-method status="PASS" signature="BasicAPIMultipleResultExtract1Test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.stta.BasicAPITestSuite.BasicAPIMultipleResultExtract1@59e5ddf]" name="BasicAPIMultipleResultExtract1Test" duration-ms="613" started-at="2017-04-26T12:07:44Z" data-provider="BasicAPIMultipleResultExtract1Data" finished-at="2017-04-26T12:07:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://api.bincodes.com/bin/?format=json&api_key=979c790d762d503c815f33cd4d6d8104&bin=538830]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ExtractDetails]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BasicAPIMultipleResultExtract1Test -->
+        <test-method status="PASS" signature="reporterDataResults()[pri:0, instance:com.stta.BasicAPITestSuite.BasicAPIMultipleResultExtract1@59e5ddf]" name="reporterDataResults" is-config="true" duration-ms="34" started-at="2017-04-26T12:07:45Z" finished-at="2017-04-26T12:07:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporterDataResults -->
+        <test-method status="PASS" signature="BasicAPIMultipleResultExtract1Test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.stta.BasicAPITestSuite.BasicAPIMultipleResultExtract1@59e5ddf]" name="BasicAPIMultipleResultExtract1Test" duration-ms="607" started-at="2017-04-26T12:07:45Z" data-provider="BasicAPIMultipleResultExtract1Data" finished-at="2017-04-26T12:07:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://api.bincodes.com/bin/?format=json&api_key=979c790d762d503c815f33cd4d6d8104&bin=539109]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ExtractDetails]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BasicAPIMultipleResultExtract1Test -->
+        <test-method status="PASS" signature="reporterDataResults()[pri:0, instance:com.stta.BasicAPITestSuite.BasicAPIMultipleResultExtract1@59e5ddf]" name="reporterDataResults" is-config="true" duration-ms="32" started-at="2017-04-26T12:07:45Z" finished-at="2017-04-26T12:07:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporterDataResults -->
+        <test-method status="PASS" signature="BasicAPIMultipleResultExtract1Test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.stta.BasicAPITestSuite.BasicAPIMultipleResultExtract1@59e5ddf]" name="BasicAPIMultipleResultExtract1Test" duration-ms="605" started-at="2017-04-26T12:07:45Z" data-provider="BasicAPIMultipleResultExtract1Data" finished-at="2017-04-26T12:07:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://api.bincodes.com/bin/?format=json&api_key=979c790d762d503c815f33cd4d6d8104&bin=539169]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ExtractDetails]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BasicAPIMultipleResultExtract1Test -->
+        <test-method status="PASS" signature="reporterDataResults()[pri:0, instance:com.stta.BasicAPITestSuite.BasicAPIMultipleResultExtract1@59e5ddf]" name="reporterDataResults" is-config="true" duration-ms="36" started-at="2017-04-26T12:07:46Z" finished-at="2017-04-26T12:07:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporterDataResults -->
+        <test-method status="PASS" signature="BasicAPIMultipleResultExtract1Test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.stta.BasicAPITestSuite.BasicAPIMultipleResultExtract1@59e5ddf]" name="BasicAPIMultipleResultExtract1Test" duration-ms="597" started-at="2017-04-26T12:07:46Z" data-provider="BasicAPIMultipleResultExtract1Data" finished-at="2017-04-26T12:07:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://api.bincodes.com/bin/?format=json&api_key=979c790d762d503c815f33cd4d6d8104&bin=540082]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ExtractDetails]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BasicAPIMultipleResultExtract1Test -->
+        <test-method status="PASS" signature="reporterDataResults()[pri:0, instance:com.stta.BasicAPITestSuite.BasicAPIMultipleResultExtract1@59e5ddf]" name="reporterDataResults" is-config="true" duration-ms="31" started-at="2017-04-26T12:07:47Z" finished-at="2017-04-26T12:07:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporterDataResults -->
+        <test-method status="PASS" signature="BasicAPIMultipleResultExtract1Test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.stta.BasicAPITestSuite.BasicAPIMultipleResultExtract1@59e5ddf]" name="BasicAPIMultipleResultExtract1Test" duration-ms="605" started-at="2017-04-26T12:07:47Z" data-provider="BasicAPIMultipleResultExtract1Data" finished-at="2017-04-26T12:07:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://api.bincodes.com/bin/?format=json&api_key=979c790d762d503c815f33cd4d6d8104&bin=540128]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ExtractDetails]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BasicAPIMultipleResultExtract1Test -->
+        <test-method status="PASS" signature="reporterDataResults()[pri:0, instance:com.stta.BasicAPITestSuite.BasicAPIMultipleResultExtract1@59e5ddf]" name="reporterDataResults" is-config="true" duration-ms="32" started-at="2017-04-26T12:07:47Z" finished-at="2017-04-26T12:07:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporterDataResults -->
+        <test-method status="PASS" signature="BasicAPIMultipleResultExtract1Test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.stta.BasicAPITestSuite.BasicAPIMultipleResultExtract1@59e5ddf]" name="BasicAPIMultipleResultExtract1Test" duration-ms="612" started-at="2017-04-26T12:07:47Z" data-provider="BasicAPIMultipleResultExtract1Data" finished-at="2017-04-26T12:07:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://api.bincodes.com/bin/?format=json&api_key=979c790d762d503c815f33cd4d6d8104&bin=540165]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ExtractDetails]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BasicAPIMultipleResultExtract1Test -->
+        <test-method status="PASS" signature="reporterDataResults()[pri:0, instance:com.stta.BasicAPITestSuite.BasicAPIMultipleResultExtract1@59e5ddf]" name="reporterDataResults" is-config="true" duration-ms="32" started-at="2017-04-26T12:07:48Z" finished-at="2017-04-26T12:07:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporterDataResults -->
+        <test-method status="PASS" signature="BasicAPIMultipleResultExtract1Test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.stta.BasicAPITestSuite.BasicAPIMultipleResultExtract1@59e5ddf]" name="BasicAPIMultipleResultExtract1Test" duration-ms="606" started-at="2017-04-26T12:07:48Z" data-provider="BasicAPIMultipleResultExtract1Data" finished-at="2017-04-26T12:07:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://api.bincodes.com/bin/?format=json&api_key=979c790d762d503c815f33cd4d6d8104&bin=540259]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ExtractDetails]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BasicAPIMultipleResultExtract1Test -->
+        <test-method status="PASS" signature="reporterDataResults()[pri:0, instance:com.stta.BasicAPITestSuite.BasicAPIMultipleResultExtract1@59e5ddf]" name="reporterDataResults" is-config="true" duration-ms="40" started-at="2017-04-26T12:07:49Z" finished-at="2017-04-26T12:07:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporterDataResults -->
+        <test-method status="PASS" signature="BasicAPIMultipleResultExtract1Test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.stta.BasicAPITestSuite.BasicAPIMultipleResultExtract1@59e5ddf]" name="BasicAPIMultipleResultExtract1Test" duration-ms="610" started-at="2017-04-26T12:07:49Z" data-provider="BasicAPIMultipleResultExtract1Data" finished-at="2017-04-26T12:07:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://api.bincodes.com/bin/?format=json&api_key=979c790d762d503c815f33cd4d6d8104&bin=540276]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ExtractDetails]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BasicAPIMultipleResultExtract1Test -->
+        <test-method status="PASS" signature="reporterDataResults()[pri:0, instance:com.stta.BasicAPITestSuite.BasicAPIMultipleResultExtract1@59e5ddf]" name="reporterDataResults" is-config="true" duration-ms="34" started-at="2017-04-26T12:07:49Z" finished-at="2017-04-26T12:07:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporterDataResults -->
+        <test-method status="PASS" signature="BasicAPIMultipleResultExtract1Test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.stta.BasicAPITestSuite.BasicAPIMultipleResultExtract1@59e5ddf]" name="BasicAPIMultipleResultExtract1Test" duration-ms="609" started-at="2017-04-26T12:07:49Z" data-provider="BasicAPIMultipleResultExtract1Data" finished-at="2017-04-26T12:07:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://api.bincodes.com/bin/?format=json&api_key=979c790d762d503c815f33cd4d6d8104&bin=540282]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ExtractDetails]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BasicAPIMultipleResultExtract1Test -->
+        <test-method status="PASS" signature="reporterDataResults()[pri:0, instance:com.stta.BasicAPITestSuite.BasicAPIMultipleResultExtract1@59e5ddf]" name="reporterDataResults" is-config="true" duration-ms="30" started-at="2017-04-26T12:07:50Z" finished-at="2017-04-26T12:07:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporterDataResults -->
+        <test-method status="PASS" signature="BasicAPIMultipleResultExtract1Test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.stta.BasicAPITestSuite.BasicAPIMultipleResultExtract1@59e5ddf]" name="BasicAPIMultipleResultExtract1Test" duration-ms="597" started-at="2017-04-26T12:07:50Z" data-provider="BasicAPIMultipleResultExtract1Data" finished-at="2017-04-26T12:07:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://api.bincodes.com/bin/?format=json&api_key=979c790d762d503c815f33cd4d6d8104&bin=540529]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ExtractDetails]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BasicAPIMultipleResultExtract1Test -->
+        <test-method status="PASS" signature="reporterDataResults()[pri:0, instance:com.stta.BasicAPITestSuite.BasicAPIMultipleResultExtract1@59e5ddf]" name="reporterDataResults" is-config="true" duration-ms="32" started-at="2017-04-26T12:07:51Z" finished-at="2017-04-26T12:07:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporterDataResults -->
+        <test-method status="PASS" signature="BasicAPIMultipleResultExtract1Test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.stta.BasicAPITestSuite.BasicAPIMultipleResultExtract1@59e5ddf]" name="BasicAPIMultipleResultExtract1Test" duration-ms="614" started-at="2017-04-26T12:07:51Z" data-provider="BasicAPIMultipleResultExtract1Data" finished-at="2017-04-26T12:07:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://api.bincodes.com/bin/?format=json&api_key=979c790d762d503c815f33cd4d6d8104&bin=540531]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ExtractDetails]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BasicAPIMultipleResultExtract1Test -->
+        <test-method status="PASS" signature="reporterDataResults()[pri:0, instance:com.stta.BasicAPITestSuite.BasicAPIMultipleResultExtract1@59e5ddf]" name="reporterDataResults" is-config="true" duration-ms="31" started-at="2017-04-26T12:07:51Z" finished-at="2017-04-26T12:07:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporterDataResults -->
+        <test-method status="PASS" signature="BasicAPIMultipleResultExtract1Test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.stta.BasicAPITestSuite.BasicAPIMultipleResultExtract1@59e5ddf]" name="BasicAPIMultipleResultExtract1Test" duration-ms="597" started-at="2017-04-26T12:07:51Z" data-provider="BasicAPIMultipleResultExtract1Data" finished-at="2017-04-26T12:07:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://api.bincodes.com/bin/?format=json&api_key=979c790d762d503c815f33cd4d6d8104&bin=540536]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ExtractDetails]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BasicAPIMultipleResultExtract1Test -->
+        <test-method status="PASS" signature="reporterDataResults()[pri:0, instance:com.stta.BasicAPITestSuite.BasicAPIMultipleResultExtract1@59e5ddf]" name="reporterDataResults" is-config="true" duration-ms="34" started-at="2017-04-26T12:07:52Z" finished-at="2017-04-26T12:07:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporterDataResults -->
+        <test-method status="PASS" signature="BasicAPIMultipleResultExtract1Test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.stta.BasicAPITestSuite.BasicAPIMultipleResultExtract1@59e5ddf]" name="BasicAPIMultipleResultExtract1Test" duration-ms="615" started-at="2017-04-26T12:07:52Z" data-provider="BasicAPIMultipleResultExtract1Data" finished-at="2017-04-26T12:07:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://api.bincodes.com/bin/?format=json&api_key=979c790d762d503c815f33cd4d6d8104&bin=540544]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ExtractDetails]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BasicAPIMultipleResultExtract1Test -->
+        <test-method status="PASS" signature="reporterDataResults()[pri:0, instance:com.stta.BasicAPITestSuite.BasicAPIMultipleResultExtract1@59e5ddf]" name="reporterDataResults" is-config="true" duration-ms="29" started-at="2017-04-26T12:07:53Z" finished-at="2017-04-26T12:07:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporterDataResults -->
+        <test-method status="PASS" signature="BasicAPIMultipleResultExtract1Test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.stta.BasicAPITestSuite.BasicAPIMultipleResultExtract1@59e5ddf]" name="BasicAPIMultipleResultExtract1Test" duration-ms="633" started-at="2017-04-26T12:07:53Z" data-provider="BasicAPIMultipleResultExtract1Data" finished-at="2017-04-26T12:07:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://api.bincodes.com/bin/?format=json&api_key=979c790d762d503c815f33cd4d6d8104&bin=541174]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ExtractDetails]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BasicAPIMultipleResultExtract1Test -->
+        <test-method status="PASS" signature="reporterDataResults()[pri:0, instance:com.stta.BasicAPITestSuite.BasicAPIMultipleResultExtract1@59e5ddf]" name="reporterDataResults" is-config="true" duration-ms="35" started-at="2017-04-26T12:07:53Z" finished-at="2017-04-26T12:07:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporterDataResults -->
+        <test-method status="PASS" signature="BasicAPIMultipleResultExtract1Test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.stta.BasicAPITestSuite.BasicAPIMultipleResultExtract1@59e5ddf]" name="BasicAPIMultipleResultExtract1Test" duration-ms="568" started-at="2017-04-26T12:07:53Z" data-provider="BasicAPIMultipleResultExtract1Data" finished-at="2017-04-26T12:07:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://api.bincodes.com/bin/?format=json&api_key=979c790d762d503c815f33cd4d6d8104&bin=541175]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ExtractDetails]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BasicAPIMultipleResultExtract1Test -->
+        <test-method status="PASS" signature="reporterDataResults()[pri:0, instance:com.stta.BasicAPITestSuite.BasicAPIMultipleResultExtract1@59e5ddf]" name="reporterDataResults" is-config="true" duration-ms="30" started-at="2017-04-26T12:07:54Z" finished-at="2017-04-26T12:07:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporterDataResults -->
+        <test-method status="PASS" signature="BasicAPIMultipleResultExtract1Test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.stta.BasicAPITestSuite.BasicAPIMultipleResultExtract1@59e5ddf]" name="BasicAPIMultipleResultExtract1Test" duration-ms="591" started-at="2017-04-26T12:07:54Z" data-provider="BasicAPIMultipleResultExtract1Data" finished-at="2017-04-26T12:07:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://api.bincodes.com/bin/?format=json&api_key=979c790d762d503c815f33cd4d6d8104&bin=541445]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ExtractDetails]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BasicAPIMultipleResultExtract1Test -->
+        <test-method status="PASS" signature="reporterDataResults()[pri:0, instance:com.stta.BasicAPITestSuite.BasicAPIMultipleResultExtract1@59e5ddf]" name="reporterDataResults" is-config="true" duration-ms="28" started-at="2017-04-26T12:07:54Z" finished-at="2017-04-26T12:07:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporterDataResults -->
+        <test-method status="PASS" signature="BasicAPIMultipleResultExtract1Test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.stta.BasicAPITestSuite.BasicAPIMultipleResultExtract1@59e5ddf]" name="BasicAPIMultipleResultExtract1Test" duration-ms="628" started-at="2017-04-26T12:07:54Z" data-provider="BasicAPIMultipleResultExtract1Data" finished-at="2017-04-26T12:07:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://api.bincodes.com/bin/?format=json&api_key=979c790d762d503c815f33cd4d6d8104&bin=541497]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ExtractDetails]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BasicAPIMultipleResultExtract1Test -->
+        <test-method status="PASS" signature="reporterDataResults()[pri:0, instance:com.stta.BasicAPITestSuite.BasicAPIMultipleResultExtract1@59e5ddf]" name="reporterDataResults" is-config="true" duration-ms="29" started-at="2017-04-26T12:07:55Z" finished-at="2017-04-26T12:07:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporterDataResults -->
+        <test-method status="PASS" signature="BasicAPIMultipleResultExtract1Test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.stta.BasicAPITestSuite.BasicAPIMultipleResultExtract1@59e5ddf]" name="BasicAPIMultipleResultExtract1Test" duration-ms="610" started-at="2017-04-26T12:07:55Z" data-provider="BasicAPIMultipleResultExtract1Data" finished-at="2017-04-26T12:07:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://api.bincodes.com/bin/?format=json&api_key=979c790d762d503c815f33cd4d6d8104&bin=541538]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ExtractDetails]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BasicAPIMultipleResultExtract1Test -->
+        <test-method status="PASS" signature="reporterDataResults()[pri:0, instance:com.stta.BasicAPITestSuite.BasicAPIMultipleResultExtract1@59e5ddf]" name="reporterDataResults" is-config="true" duration-ms="45" started-at="2017-04-26T12:07:56Z" finished-at="2017-04-26T12:07:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporterDataResults -->
+        <test-method status="PASS" signature="BasicAPIMultipleResultExtract1Test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.stta.BasicAPITestSuite.BasicAPIMultipleResultExtract1@59e5ddf]" name="BasicAPIMultipleResultExtract1Test" duration-ms="590" started-at="2017-04-26T12:07:56Z" data-provider="BasicAPIMultipleResultExtract1Data" finished-at="2017-04-26T12:07:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://api.bincodes.com/bin/?format=json&api_key=979c790d762d503c815f33cd4d6d8104&bin=542034]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ExtractDetails]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BasicAPIMultipleResultExtract1Test -->
+        <test-method status="PASS" signature="reporterDataResults()[pri:0, instance:com.stta.BasicAPITestSuite.BasicAPIMultipleResultExtract1@59e5ddf]" name="reporterDataResults" is-config="true" duration-ms="28" started-at="2017-04-26T12:07:56Z" finished-at="2017-04-26T12:07:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporterDataResults -->
+        <test-method status="PASS" signature="BasicAPIMultipleResultExtract1Test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.stta.BasicAPITestSuite.BasicAPIMultipleResultExtract1@59e5ddf]" name="BasicAPIMultipleResultExtract1Test" duration-ms="625" started-at="2017-04-26T12:07:56Z" data-provider="BasicAPIMultipleResultExtract1Data" finished-at="2017-04-26T12:07:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://api.bincodes.com/bin/?format=json&api_key=979c790d762d503c815f33cd4d6d8104&bin=542086]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ExtractDetails]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BasicAPIMultipleResultExtract1Test -->
+        <test-method status="PASS" signature="reporterDataResults()[pri:0, instance:com.stta.BasicAPITestSuite.BasicAPIMultipleResultExtract1@59e5ddf]" name="reporterDataResults" is-config="true" duration-ms="32" started-at="2017-04-26T12:07:57Z" finished-at="2017-04-26T12:07:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporterDataResults -->
+        <test-method status="PASS" signature="BasicAPIMultipleResultExtract1Test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.stta.BasicAPITestSuite.BasicAPIMultipleResultExtract1@59e5ddf]" name="BasicAPIMultipleResultExtract1Test" duration-ms="610" started-at="2017-04-26T12:07:57Z" data-provider="BasicAPIMultipleResultExtract1Data" finished-at="2017-04-26T12:07:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://api.bincodes.com/bin/?format=json&api_key=979c790d762d503c815f33cd4d6d8104&bin=542176]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ExtractDetails]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BasicAPIMultipleResultExtract1Test -->
+        <test-method status="PASS" signature="reporterDataResults()[pri:0, instance:com.stta.BasicAPITestSuite.BasicAPIMultipleResultExtract1@59e5ddf]" name="reporterDataResults" is-config="true" duration-ms="28" started-at="2017-04-26T12:07:58Z" finished-at="2017-04-26T12:07:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporterDataResults -->
+        <test-method status="PASS" signature="BasicAPIMultipleResultExtract1Test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.stta.BasicAPITestSuite.BasicAPIMultipleResultExtract1@59e5ddf]" name="BasicAPIMultipleResultExtract1Test" duration-ms="612" started-at="2017-04-26T12:07:58Z" data-provider="BasicAPIMultipleResultExtract1Data" finished-at="2017-04-26T12:07:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://api.bincodes.com/bin/?format=json&api_key=979c790d762d503c815f33cd4d6d8104&bin=542207]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ExtractDetails]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BasicAPIMultipleResultExtract1Test -->
+        <test-method status="PASS" signature="reporterDataResults()[pri:0, instance:com.stta.BasicAPITestSuite.BasicAPIMultipleResultExtract1@59e5ddf]" name="reporterDataResults" is-config="true" duration-ms="31" started-at="2017-04-26T12:07:58Z" finished-at="2017-04-26T12:07:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporterDataResults -->
+        <test-method status="PASS" signature="BasicAPIMultipleResultExtract1Test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.stta.BasicAPITestSuite.BasicAPIMultipleResultExtract1@59e5ddf]" name="BasicAPIMultipleResultExtract1Test" duration-ms="517" started-at="2017-04-26T12:07:58Z" data-provider="BasicAPIMultipleResultExtract1Data" finished-at="2017-04-26T12:07:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://api.bincodes.com/bin/?format=json&api_key=979c790d762d503c815f33cd4d6d8104&bin=542463]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ExtractDetails]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BasicAPIMultipleResultExtract1Test -->
+        <test-method status="PASS" signature="reporterDataResults()[pri:0, instance:com.stta.BasicAPITestSuite.BasicAPIMultipleResultExtract1@59e5ddf]" name="reporterDataResults" is-config="true" duration-ms="29" started-at="2017-04-26T12:07:59Z" finished-at="2017-04-26T12:07:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporterDataResults -->
+        <test-method status="PASS" signature="BasicAPIMultipleResultExtract1Test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.stta.BasicAPITestSuite.BasicAPIMultipleResultExtract1@59e5ddf]" name="BasicAPIMultipleResultExtract1Test" duration-ms="690" started-at="2017-04-26T12:07:59Z" data-provider="BasicAPIMultipleResultExtract1Data" finished-at="2017-04-26T12:08:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://api.bincodes.com/bin/?format=json&api_key=979c790d762d503c815f33cd4d6d8104&bin=542505]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ExtractDetails]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BasicAPIMultipleResultExtract1Test -->
+        <test-method status="PASS" signature="reporterDataResults()[pri:0, instance:com.stta.BasicAPITestSuite.BasicAPIMultipleResultExtract1@59e5ddf]" name="reporterDataResults" is-config="true" duration-ms="46" started-at="2017-04-26T12:08:00Z" finished-at="2017-04-26T12:08:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporterDataResults -->
+        <test-method status="PASS" signature="BasicAPIMultipleResultExtract1Test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.stta.BasicAPITestSuite.BasicAPIMultipleResultExtract1@59e5ddf]" name="BasicAPIMultipleResultExtract1Test" duration-ms="596" started-at="2017-04-26T12:08:00Z" data-provider="BasicAPIMultipleResultExtract1Data" finished-at="2017-04-26T12:08:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://api.bincodes.com/bin/?format=json&api_key=979c790d762d503c815f33cd4d6d8104&bin=542556]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ExtractDetails]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BasicAPIMultipleResultExtract1Test -->
+        <test-method status="PASS" signature="reporterDataResults()[pri:0, instance:com.stta.BasicAPITestSuite.BasicAPIMultipleResultExtract1@59e5ddf]" name="reporterDataResults" is-config="true" duration-ms="29" started-at="2017-04-26T12:08:00Z" finished-at="2017-04-26T12:08:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporterDataResults -->
+        <test-method status="PASS" signature="BasicAPIMultipleResultExtract1Test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.stta.BasicAPITestSuite.BasicAPIMultipleResultExtract1@59e5ddf]" name="BasicAPIMultipleResultExtract1Test" duration-ms="621" started-at="2017-04-26T12:08:00Z" data-provider="BasicAPIMultipleResultExtract1Data" finished-at="2017-04-26T12:08:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://api.bincodes.com/bin/?format=json&api_key=979c790d762d503c815f33cd4d6d8104&bin=542836]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ExtractDetails]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BasicAPIMultipleResultExtract1Test -->
+        <test-method status="PASS" signature="reporterDataResults()[pri:0, instance:com.stta.BasicAPITestSuite.BasicAPIMultipleResultExtract1@59e5ddf]" name="reporterDataResults" is-config="true" duration-ms="28" started-at="2017-04-26T12:08:01Z" finished-at="2017-04-26T12:08:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporterDataResults -->
+        <test-method status="PASS" signature="BasicAPIMultipleResultExtract1Test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.stta.BasicAPITestSuite.BasicAPIMultipleResultExtract1@59e5ddf]" name="BasicAPIMultipleResultExtract1Test" duration-ms="598" started-at="2017-04-26T12:08:01Z" data-provider="BasicAPIMultipleResultExtract1Data" finished-at="2017-04-26T12:08:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://api.bincodes.com/bin/?format=json&api_key=979c790d762d503c815f33cd4d6d8104&bin=543035]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ExtractDetails]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BasicAPIMultipleResultExtract1Test -->
+        <test-method status="PASS" signature="reporterDataResults()[pri:0, instance:com.stta.BasicAPITestSuite.BasicAPIMultipleResultExtract1@59e5ddf]" name="reporterDataResults" is-config="true" duration-ms="29" started-at="2017-04-26T12:08:01Z" finished-at="2017-04-26T12:08:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporterDataResults -->
+        <test-method status="PASS" signature="BasicAPIMultipleResultExtract1Test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.stta.BasicAPITestSuite.BasicAPIMultipleResultExtract1@59e5ddf]" name="BasicAPIMultipleResultExtract1Test" duration-ms="630" started-at="2017-04-26T12:08:01Z" data-provider="BasicAPIMultipleResultExtract1Data" finished-at="2017-04-26T12:08:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://api.bincodes.com/bin/?format=json&api_key=979c790d762d503c815f33cd4d6d8104&bin=543105]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ExtractDetails]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BasicAPIMultipleResultExtract1Test -->
+        <test-method status="PASS" signature="reporterDataResults()[pri:0, instance:com.stta.BasicAPITestSuite.BasicAPIMultipleResultExtract1@59e5ddf]" name="reporterDataResults" is-config="true" duration-ms="30" started-at="2017-04-26T12:08:02Z" finished-at="2017-04-26T12:08:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporterDataResults -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.stta.BasicAPITestSuite.BasicAPIMultipleResultExtract1@59e5ddf]" name="closeBrowser" is-config="true" duration-ms="2" started-at="2017-04-26T12:08:02Z" finished-at="2017-04-26T12:08:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.stta.BasicAPITestSuite.BasicAPIMultipleResultExtract1 -->
+    </test> <!-- BasicAPIResultMultipleExtract1 -->
+  </suite> <!-- APITestSuite -->
+</testng-results>

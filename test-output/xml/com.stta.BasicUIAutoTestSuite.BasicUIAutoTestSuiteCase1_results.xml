@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="BasicUIAutoTestSuiteCase1"
+           tests="8"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="28.131">
+  <properties />
+  
+  
+            <testcase name="BasicUIAutoTestSuiteCase1Test" time="15.482" classname="com.stta.BasicUIAutoTestSuite.BasicUIAutoTestSuiteCase1" />
+                <testcase name="BasicUIAutoTestSuiteCase1Test" time="0.655" classname="com.stta.BasicUIAutoTestSuite.BasicUIAutoTestSuiteCase1" />
+                <testcase name="BasicUIAutoTestSuiteCase1Test" time="8.950" classname="com.stta.BasicUIAutoTestSuite.BasicUIAutoTestSuiteCase1" />
+                <testcase name="BasicUIAutoTestSuiteCase1Test" time="1.546" classname="com.stta.BasicUIAutoTestSuite.BasicUIAutoTestSuiteCase1" />
+                <testcase name="BasicUIAutoTestSuiteCase1Test" time="0.008" classname="com.stta.BasicUIAutoTestSuite.BasicUIAutoTestSuiteCase1" />
+                <testcase name="BasicUIAutoTestSuiteCase1Test" time="0.622" classname="com.stta.BasicUIAutoTestSuite.BasicUIAutoTestSuiteCase1" />
+                <testcase name="BasicUIAutoTestSuiteCase1Test" time="0.861" classname="com.stta.BasicUIAutoTestSuite.BasicUIAutoTestSuiteCase1" />
+                <testcase name="BasicUIAutoTestSuiteCase1Test" time="0.007" classname="com.stta.BasicUIAutoTestSuite.BasicUIAutoTestSuiteCase1" />
+      
+</testsuite>

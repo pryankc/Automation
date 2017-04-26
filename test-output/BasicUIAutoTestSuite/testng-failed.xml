@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [BasicUIAutoTestSuite]">
+  <listeners>
+    <listener class-name="com.stta.utility.ScreenshotUtility"/>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test name="BasicUIAutoTestSuiteCaseM1(failed)">
+    <parameter name="appiumnode" value="127.0.0.1;4736;5436"/>
+    <parameter name="caps" value="5ce6eee1;Android;6.0.1;Android;com.ftcash.agent;com.ftcash.agent.MainActivity;com.ftcash.agent.MainActivity;http://127.0.0.1:4736/wd/hub"/>
+    <classes>
+      <class name="com.stta.BasicUIAutoTestSuite.BasicUIAutoTestSuiteCaseM">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="checkCaseToRun"/>
+          <include name="reporterDataResults"/>
+          <include name="BasicUIAutoTestSuiteCaseMTest" invocation-numbers="12"/>
+          <include name="checkSuiteToRun"/>
+        </methods>
+      </class> <!-- com.stta.BasicUIAutoTestSuite.BasicUIAutoTestSuiteCaseM -->
+    </classes>
+  </test> <!-- BasicUIAutoTestSuiteCaseM1(failed) -->
+</suite> <!-- Failed suite [BasicUIAutoTestSuite] -->

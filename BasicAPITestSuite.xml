@@ -1,0 +1,28 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="APITestSuite">
+
+<!-- If add more test cases In this suite, You need to add them as bellow. -->
+
+<!-- <test name="BasicAPITestSuiteCaseSF">
+    <classes>
+        <class name="com.stta.BasicAPITestSuite.BasicAPITestSuiteCaseSF" ></class>  
+    </classes>
+</test> -->
+<!-- <test name="BasicAPIResultExtract">
+    <classes>
+        <class name="com.stta.BasicAPITestSuite.BasicAPIResultExtract" ></class>  
+    </classes>
+</test> -->
+
+<!-- <test name="BasicAPIResultMultipleExtract">
+    <classes>
+        <class name="com.stta.BasicAPITestSuite.BasicAPIMultipleResultExtract" ></class>  
+    </classes>
+</test> -->
+<test name="BasicAPIResultMultipleExtract1">
+    <classes>
+        <class name="com.stta.BasicAPITestSuite.BasicAPIMultipleResultExtract1" ></class>  
+    </classes>
+</test>
+
+</suite>

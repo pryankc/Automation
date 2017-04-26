@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="BasicUIAutoTestSuiteCaseM1"
+           tests="10"
+           failures="6"
+           errors="0"
+           skipped="0"
+           time="16.458">
+  <properties />
+            <testcase name="BasicUIAutoTestSuiteCaseM1Test" time="0.004" classname="com.stta.BasicUIAutoTestSuite.BasicUIAutoTestSuiteCaseM1">
+                <failure type="java.lang.AssertionError"
+                  message="The following asserts failed:
+	expected [false] but found [true]"
+              >
+<![CDATA[java.lang.AssertionError: The following asserts failed:
+	expected [false] but found [true]
+  org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+  com.stta.BasicUIAutoTestSuite.BasicUIAutoTestSuiteCaseM1.BasicUIAutoTestSuiteCaseM1Test(BasicUIAutoTestSuiteCaseM1.java:136)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+  java.lang.reflect.Method.invoke(Unknown Source)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+  org.testng.TestRunner.privateRun(TestRunner.java:756)
+  org.testng.TestRunner.run(TestRunner.java:610)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+  org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+  org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:421)
+  org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+  java.util.concurrent.FutureTask.run(Unknown Source)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+  java.lang.Thread.run(Unknown Source)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="BasicUIAutoTestSuiteCaseM1Test" time="0.003" classname="com.stta.BasicUIAutoTestSuite.BasicUIAutoTestSuiteCaseM1">
+                <failure type="java.lang.AssertionError"
+                  message="The following asserts failed:
+	expected [false] but found [true]"
+              >
+<![CDATA[java.lang.AssertionError: The following asserts failed:
+	expected [false] but found [true]
+  org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+  com.stta.BasicUIAutoTestSuite.BasicUIAutoTestSuiteCaseM1.BasicUIAutoTestSuiteCaseM1Test(BasicUIAutoTestSuiteCaseM1.java:136)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+  java.lang.reflect.Method.invoke(Unknown Source)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+  org.testng.TestRunner.privateRun(TestRunner.java:756)
+  org.testng.TestRunner.run(TestRunner.java:610)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+  org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+  org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:421)
+  org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+  java.util.concurrent.FutureTask.run(Unknown Source)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+  java.lang.Thread.run(Unknown Source)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="BasicUIAutoTestSuiteCaseM1Test" time="1.381" classname="com.stta.BasicUIAutoTestSuite.BasicUIAutoTestSuiteCaseM1">
+                <failure type="java.lang.AssertionError"
+                  message="The following asserts failed:
+	expected [false] but found [true]"
+              >
+<![CDATA[java.lang.AssertionError: The following asserts failed:
+	expected [false] but found [true]
+  org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+  com.stta.BasicUIAutoTestSuite.BasicUIAutoTestSuiteCaseM1.BasicUIAutoTestSuiteCaseM1Test(BasicUIAutoTestSuiteCaseM1.java:136)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+  java.lang.reflect.Method.invoke(Unknown Source)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+  org.testng.TestRunner.privateRun(TestRunner.java:756)
+  org.testng.TestRunner.run(TestRunner.java:610)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+  org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+  org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:421)
+  org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+  java.util.concurrent.FutureTask.run(Unknown Source)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+  java.lang.Thread.run(Unknown Source)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="BasicUIAutoTestSuiteCaseM1Test" time="0.016" classname="com.stta.BasicUIAutoTestSuite.BasicUIAutoTestSuiteCaseM1">
+                <failure type="java.lang.AssertionError"
+                  message="The following asserts failed:
+	expected [false] but found [true]"
+              >
+<![CDATA[java.lang.AssertionError: The following asserts failed:
+	expected [false] but found [true]
+  org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+  com.stta.BasicUIAutoTestSuite.BasicUIAutoTestSuiteCaseM1.BasicUIAutoTestSuiteCaseM1Test(BasicUIAutoTestSuiteCaseM1.java:136)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+  java.lang.reflect.Method.invoke(Unknown Source)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+  org.testng.TestRunner.privateRun(TestRunner.java:756)
+  org.testng.TestRunner.run(TestRunner.java:610)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+  org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+  org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:421)
+  org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+  java.util.concurrent.FutureTask.run(Unknown Source)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+  java.lang.Thread.run(Unknown Source)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="BasicUIAutoTestSuiteCaseM1Test" time="0.004" classname="com.stta.BasicUIAutoTestSuite.BasicUIAutoTestSuiteCaseM1">
+                <failure type="java.lang.AssertionError"
+                  message="The following asserts failed:
+	expected [false] but found [true]"
+              >
+<![CDATA[java.lang.AssertionError: The following asserts failed:
+	expected [false] but found [true]
+  org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+  com.stta.BasicUIAutoTestSuite.BasicUIAutoTestSuiteCaseM1.BasicUIAutoTestSuiteCaseM1Test(BasicUIAutoTestSuiteCaseM1.java:136)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+  java.lang.reflect.Method.invoke(Unknown Source)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+  org.testng.TestRunner.privateRun(TestRunner.java:756)
+  org.testng.TestRunner.run(TestRunner.java:610)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+  org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+  org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:421)
+  org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+  java.util.concurrent.FutureTask.run(Unknown Source)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+  java.lang.Thread.run(Unknown Source)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="BasicUIAutoTestSuiteCaseM1Test" time="0.003" classname="com.stta.BasicUIAutoTestSuite.BasicUIAutoTestSuiteCaseM1">
+                <failure type="java.lang.AssertionError"
+                  message="The following asserts failed:
+	expected [false] but found [true]"
+              >
+<![CDATA[java.lang.AssertionError: The following asserts failed:
+	expected [false] but found [true]
+  org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+  com.stta.BasicUIAutoTestSuite.BasicUIAutoTestSuiteCaseM1.BasicUIAutoTestSuiteCaseM1Test(BasicUIAutoTestSuiteCaseM1.java:136)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+  java.lang.reflect.Method.invoke(Unknown Source)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+  org.testng.TestRunner.privateRun(TestRunner.java:756)
+  org.testng.TestRunner.run(TestRunner.java:610)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+  org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+  org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:421)
+  org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+  java.util.concurrent.FutureTask.run(Unknown Source)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+  java.lang.Thread.run(Unknown Source)
+]]>
+      </failure>
+
+          </testcase>
+  
+  
+            <testcase name="BasicUIAutoTestSuiteCaseM1Test" time="0.003" classname="com.stta.BasicUIAutoTestSuite.BasicUIAutoTestSuiteCaseM1" />
+                <testcase name="BasicUIAutoTestSuiteCaseM1Test" time="0.005" classname="com.stta.BasicUIAutoTestSuite.BasicUIAutoTestSuiteCaseM1" />
+                <testcase name="BasicUIAutoTestSuiteCaseM1Test" time="15.034" classname="com.stta.BasicUIAutoTestSuite.BasicUIAutoTestSuiteCaseM1" />
+                <testcase name="cloudData" time="0.005" classname="com.stta.BasicUIAutoTestSuite.BasicUIAutoTestSuiteCaseM1" />
+      
+</testsuite>

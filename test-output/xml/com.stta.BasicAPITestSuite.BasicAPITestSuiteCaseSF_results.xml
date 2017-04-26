@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="BasicAPITestSuiteCaseSF"
+           tests="21"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="14.439">
+  <properties />
+  
+  
+            <testcase name="BasicAPITestSuiteCaseSFTest" time="0.635" classname="com.stta.BasicAPITestSuite.BasicAPITestSuiteCaseSF" />
+                <testcase name="BasicAPITestSuiteCaseSFTest" time="0.625" classname="com.stta.BasicAPITestSuite.BasicAPITestSuiteCaseSF" />
+                <testcase name="BasicAPITestSuiteCaseSFTest" time="0.631" classname="com.stta.BasicAPITestSuite.BasicAPITestSuiteCaseSF" />
+                <testcase name="BasicAPITestSuiteCaseSFTest" time="0.635" classname="com.stta.BasicAPITestSuite.BasicAPITestSuiteCaseSF" />
+                <testcase name="BasicAPITestSuiteCaseSFTest" time="0.641" classname="com.stta.BasicAPITestSuite.BasicAPITestSuiteCaseSF" />
+                <testcase name="BasicAPITestSuiteCaseSFTest" time="0.632" classname="com.stta.BasicAPITestSuite.BasicAPITestSuiteCaseSF" />
+                <testcase name="BasicAPITestSuiteCaseSFTest" time="0.641" classname="com.stta.BasicAPITestSuite.BasicAPITestSuiteCaseSF" />
+                <testcase name="BasicAPITestSuiteCaseSFTest" time="0.632" classname="com.stta.BasicAPITestSuite.BasicAPITestSuiteCaseSF" />
+                <testcase name="BasicAPITestSuiteCaseSFTest" time="0.616" classname="com.stta.BasicAPITestSuite.BasicAPITestSuiteCaseSF" />
+                <testcase name="BasicAPITestSuiteCaseSFTest" time="0.631" classname="com.stta.BasicAPITestSuite.BasicAPITestSuiteCaseSF" />
+                <testcase name="BasicAPITestSuiteCaseSFTest" time="0.622" classname="com.stta.BasicAPITestSuite.BasicAPITestSuiteCaseSF" />
+                <testcase name="BasicAPITestSuiteCaseSFTest" time="1.741" classname="com.stta.BasicAPITestSuite.BasicAPITestSuiteCaseSF" />
+                <testcase name="BasicAPITestSuiteCaseSFTest" time="0.647" classname="com.stta.BasicAPITestSuite.BasicAPITestSuiteCaseSF" />
+                <testcase name="BasicAPITestSuiteCaseSFTest" time="0.635" classname="com.stta.BasicAPITestSuite.BasicAPITestSuiteCaseSF" />
+                <testcase name="BasicAPITestSuiteCaseSFTest" time="0.645" classname="com.stta.BasicAPITestSuite.BasicAPITestSuiteCaseSF" />
+                <testcase name="BasicAPITestSuiteCaseSFTest" time="0.646" classname="com.stta.BasicAPITestSuite.BasicAPITestSuiteCaseSF" />
+                <testcase name="BasicAPITestSuiteCaseSFTest" time="0.653" classname="com.stta.BasicAPITestSuite.BasicAPITestSuiteCaseSF" />
+                <testcase name="BasicAPITestSuiteCaseSFTest" time="0.640" classname="com.stta.BasicAPITestSuite.BasicAPITestSuiteCaseSF" />
+                <testcase name="BasicAPITestSuiteCaseSFTest" time="0.613" classname="com.stta.BasicAPITestSuite.BasicAPITestSuiteCaseSF" />
+                <testcase name="BasicAPITestSuiteCaseSFTest" time="0.653" classname="com.stta.BasicAPITestSuite.BasicAPITestSuiteCaseSF" />
+                <testcase name="BasicAPITestSuiteCaseSFTest" time="0.625" classname="com.stta.BasicAPITestSuite.BasicAPITestSuiteCaseSF" />
+      
+</testsuite>

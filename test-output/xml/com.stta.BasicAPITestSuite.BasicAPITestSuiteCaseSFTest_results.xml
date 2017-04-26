@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="UserSuiteCaseLoginViaOTPData"
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="4"
+           time="0.000">
+  <properties />
+  
+            <testcase name="closeBrowser" time="0.0" classname="com.stta.BasicAPITestSuite.BasicAPITestSuiteCaseSFTest">
+          <skipped />
+    </testcase>
+            <testcase name="checkSuiteToRun" time="0.0" classname="com.stta.BasicAPITestSuite.BasicAPITestSuiteCaseSFTest">
+          <skipped />
+    </testcase>
+            <testcase name="checkCaseToRun" time="0.0" classname="com.stta.BasicAPITestSuite.BasicAPITestSuiteCaseSFTest">
+          <skipped />
+    </testcase>
+            <testcase name="UserSuiteCaseLoginViaOTPTest" time="0.0" classname="com.stta.BasicAPITestSuite.BasicAPITestSuiteCaseSFTest">
+          <skipped />
+    </testcase>
+  
+  
+</testsuite>

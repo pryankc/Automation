@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [UserSuite]">
+  <listeners>
+    <listener class-name="com.stta.utility.ScreenshotUtility"/>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test name="UserSuiteCaseLoginViaOTPData(failed)">
+    <classes>
+      <class name="com.stta.BasicAPITestSuite.BasicAPITestSuiteCaseSF">
+        <methods>
+          <include name="checkSuiteToRun"/>
+          <include name="reporterDataResults"/>
+          <include name="closeBrowser"/>
+          <include name="checkCaseToRun"/>
+          <include name="BasicAPITestSuiteCaseSFTestTest" invocation-numbers="1"/>
+        </methods>
+      </class> <!-- com.stta.BasicAPITestSuite.BasicAPITestSuiteCaseSF -->
+    </classes>
+  </test> <!-- UserSuiteCaseLoginViaOTPData(failed) -->
+</suite> <!-- Failed suite [UserSuite] -->

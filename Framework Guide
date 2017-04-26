@@ -1,0 +1,31 @@
+1) Create required excel
+2) Edit SuiteBase to add excel
+3) Create Package
+4) Create Base class - Edit SuiteName
+5) Create TestCase class - edit FilePath,dataprovider and @tests name
+
+
+
+Integrate jenkins 
+Database verification
+
+Things needs to be implemented in appium
+1) Stop Appium server if the code doesn't work
+2) Close App
+3) VideoRecording in Mobile
+4) Accept permissions in mobile
+5) Scroll to top and bottom of the screen
+6) Record Video on mobile phone
+7) Build Cloud like capability
+8) Assert commands
+9) Build detailed analysis within the same (for network and performance)
+
+
+
+
+Things need to be implemented in selenium
+1) Close Browser
+2) PhantomJS for headless WebKit - https://saucelabs.com/blog/capture-network-traffic-with-automation-scripts
+3) Integrate browsermob for network analysis
+
+

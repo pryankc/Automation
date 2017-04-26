@@ -1,0 +1,653 @@
+2017-04-18 12:32:48:564 - warn: Appium support for versions of node < 0.12 has been deprecated and will be removed in a future version. Please upgrade!
+2017-04-18 12:32:48:610 - info: Welcome to Appium v1.4.13 (REV c75d8adcb66a75818a542fe1891a34260c21f76a)
+2017-04-18 12:32:48:610 - info: Appium REST http interface listener started on 127.0.0.1:4736
+2017-04-18 12:32:48:610 - info: [debug] Non-default server args: {"address":"127.0.0.1","port":4736,"bootstrapPort":5436,"noReset":true,"log":"C://Users//user//ftcash workspace//WDDF//appiumLogs.txt"}
+2017-04-18 12:32:48:610 - info: Console LogLevel: debug
+2017-04-18 12:32:48:610 - info: File LogLevel: debug
+2017-04-18 12:33:02:302 - info: --> POST /wd/hub/session {"desiredCapabilities":{"appPackage":"com.ftcash.agent","appActivity":"com.ftcash.agent.MainActivity","appWaitActivity":"com.ftcash.agent.MainActivity","browserName":"Android","udid":"5ce6eee1","platformName":"Android","deviceName":"5ce6eee1","version":"6.0.1"}}
+2017-04-18 12:33:02:302 - info: Client User-Agent string: Apache-HttpClient/4.5.2 (Java/1.8.0_121)
+2017-04-18 12:33:02:302 - info: [debug] The following desired capabilities were provided, but not recognized by appium. They will be passed on to any other services running on this server. : version
+2017-04-18 12:33:02:302 - info: [debug] Didn't get app but did get Android package, will attempt to launch it on the device
+2017-04-18 12:33:02:302 - info: [debug] Creating new appium session 6cfd1896-2926-42df-9229-8812dba57821
+2017-04-18 12:33:02:302 - info: Starting android appium
+2017-04-18 12:33:02:302 - info: [debug] Getting Java version
+2017-04-18 12:33:02:365 - info: Java version is: 1.8.0_121
+2017-04-18 12:33:02:381 - info: [debug] Checking whether adb is present
+2017-04-18 12:33:02:381 - info: [debug] Using adb from E:\work at ftcash\softwares\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe
+2017-04-18 12:33:02:381 - warn: No app capability, can't parse package/activity
+2017-04-18 12:33:02:381 - info: [debug] Using fast reset? false
+2017-04-18 12:33:02:381 - info: [debug] Preparing device for session
+2017-04-18 12:33:02:381 - info: [debug] Not checking whether app is present since we are assuming it's already on the device
+2017-04-18 12:33:02:381 - info: Retrieving device
+2017-04-18 12:33:02:381 - info: [debug] Trying to find a connected android device
+2017-04-18 12:33:02:381 - info: [debug] Getting connected devices...
+2017-04-18 12:33:02:381 - info: [debug] executing cmd: "E:\work at ftcash\softwares\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe" devices
+2017-04-18 12:33:02:612 - info: [debug] 2 device(s) connected
+2017-04-18 12:33:02:612 - info: Found device 5ce6eee1
+2017-04-18 12:33:02:612 - info: [debug] Setting device id to 5ce6eee1
+2017-04-18 12:33:02:612 - info: [debug] Waiting for device to be ready and to respond to shell commands (timeout = 5)
+2017-04-18 12:33:02:612 - info: [debug] executing cmd: "E:\work at ftcash\softwares\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe" -s 5ce6eee1 wait-for-device
+2017-04-18 12:33:02:849 - info: [debug] executing cmd: "E:\work at ftcash\softwares\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe" -s 5ce6eee1 shell "echo 'ready'"
+2017-04-18 12:33:03:128 - info: [debug] Starting logcat capture
+2017-04-18 12:33:03:213 - info: [debug] Getting device API level
+2017-04-18 12:33:03:213 - info: [debug] executing cmd: "E:\work at ftcash\softwares\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe" -s 5ce6eee1 shell "getprop ro.build.version.sdk"
+2017-04-18 12:33:03:517 - info: [debug] Device is at API Level 23
+2017-04-18 12:33:03:517 - info: Device API level is: 23
+2017-04-18 12:33:03:517 - info: [debug] Extracting strings for language: default
+2017-04-18 12:33:03:517 - info: [debug] Apk doesn't exist locally
+2017-04-18 12:33:03:517 - info: [debug] Could not get strings, but it looks like we had an old strings file anyway, so ignoring
+2017-04-18 12:33:03:517 - info: [debug] executing cmd: "E:\work at ftcash\softwares\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe" -s 5ce6eee1 shell "rm -rf /data/local/tmp/strings.json"
+2017-04-18 12:33:03:766 - info: [debug] Not uninstalling app since server not started with --full-reset
+2017-04-18 12:33:03:766 - info: [debug] Skipping install since we launched with a package instead of an app path
+2017-04-18 12:33:03:766 - info: [debug] Forwarding system:5436 to device:4724
+2017-04-18 12:33:03:766 - info: [debug] executing cmd: "E:\work at ftcash\softwares\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe" -s 5ce6eee1 forward tcp:5436 tcp:4724
+2017-04-18 12:33:04:013 - info: [debug] Pushing appium bootstrap to device...
+2017-04-18 12:33:04:018 - info: [debug] executing cmd: "E:\work at ftcash\softwares\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe" -s 5ce6eee1 push "C:\\Progra~2\\Appium\\node_modules\\appium\\build\\android_bootstrap\\AppiumBootstrap.jar" /data/local/tmp/
+2017-04-18 12:33:04:285 - info: [debug] Pushing settings apk to device...
+2017-04-18 12:33:04:285 - info: [debug] executing cmd: "E:\work at ftcash\softwares\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe" -s 5ce6eee1 install "C:\Progra~2\Appium\node_modules\appium\build\settings_apk\settings_apk-debug.apk"
+2017-04-18 12:33:06:364 - info: [debug] Pushing unlock helper app to device...
+2017-04-18 12:33:06:367 - info: [debug] executing cmd: "E:\work at ftcash\softwares\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe" -s 5ce6eee1 install "C:\Progra~2\Appium\node_modules\appium\build\unlock_apk\unlock_apk-debug.apk"
+2017-04-18 12:33:08:218 - info: Starting App
+2017-04-18 12:33:08:227 - info: [debug] Attempting to kill all 'uiautomator' processes
+2017-04-18 12:33:08:228 - info: [debug] Getting all processes with 'uiautomator'
+2017-04-18 12:33:08:228 - info: [debug] executing cmd: "E:\work at ftcash\softwares\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe" -s 5ce6eee1 shell "ps 'uiautomator'"
+2017-04-18 12:33:08:588 - info: [debug] No matching processes found
+2017-04-18 12:33:08:588 - info: [debug] Running bootstrap
+2017-04-18 12:33:08:588 - info: [debug] spawning: E:\work at ftcash\softwares\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe -s 5ce6eee1 shell uiautomator runtest AppiumBootstrap.jar -c io.appium.android.bootstrap.Bootstrap -e pkg com.ftcash.agent -e disableAndroidWatchers false
+2017-04-18 12:33:09:420 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: numtests=1
+2017-04-18 12:33:09:431 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: stream=
+2017-04-18 12:33:09:431 - info: [debug] [UIAUTOMATOR STDOUT] io.appium.android.bootstrap.Bootstrap:
+2017-04-18 12:33:09:431 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+2017-04-18 12:33:09:431 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: test=testRunServer
+2017-04-18 12:33:09:431 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: class=io.appium.android.bootstrap.Bootstrap
+2017-04-18 12:33:09:432 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: current=1
+2017-04-18 12:33:09:432 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS_CODE: 1
+2017-04-18 12:33:09:432 - info: [debug] [BOOTSTRAP] [debug] Socket opened on port 4724
+2017-04-18 12:33:09:432 - info: [debug] [BOOTSTRAP] [debug] Appium Socket Server Ready
+2017-04-18 12:33:09:432 - info: [debug] [BOOTSTRAP] [debug] Loading json...
+2017-04-18 12:33:09:432 - info: [debug] Waking up device if it's not alive
+2017-04-18 12:33:09:432 - info: [debug] Pushing command to appium work queue: ["wake",{}]
+2017-04-18 12:33:09:432 - info: [debug] [BOOTSTRAP] [debug] Registered crash watchers.
+2017-04-18 12:33:09:432 - info: [debug] [BOOTSTRAP] [debug] Client connected
+2017-04-18 12:33:09:448 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"wake","params":{}}
+2017-04-18 12:33:09:448 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2017-04-18 12:33:09:448 - info: [debug] [BOOTSTRAP] [debug] Got command action: wake
+2017-04-18 12:33:09:448 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":true}
+2017-04-18 12:33:09:448 - info: [debug] executing cmd: "E:\work at ftcash\softwares\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe" -s 5ce6eee1 shell "dumpsys window"
+2017-04-18 12:33:09:725 - info: [debug] Screen already unlocked, continuing.
+2017-04-18 12:33:09:725 - info: [debug] Pushing command to appium work queue: ["getDataDir",{}]
+2017-04-18 12:33:09:725 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"getDataDir","params":{}}
+2017-04-18 12:33:09:741 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2017-04-18 12:33:09:741 - info: [debug] [BOOTSTRAP] [debug] Got command action: getDataDir
+2017-04-18 12:33:09:741 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":"\/data\/local\/tmp"}
+2017-04-18 12:33:09:741 - info: [debug] dataDir set to: /data/local/tmp
+2017-04-18 12:33:09:741 - info: [debug] Pushing command to appium work queue: ["compressedLayoutHierarchy",{"compressLayout":false}]
+2017-04-18 12:33:09:741 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"compressedLayoutHierarchy","params":{"compressLayout":false}}
+2017-04-18 12:33:09:741 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2017-04-18 12:33:09:741 - info: [debug] [BOOTSTRAP] [debug] Got command action: compressedLayoutHierarchy
+2017-04-18 12:33:09:756 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":false}
+2017-04-18 12:33:09:756 - info: [debug] Getting device API level
+2017-04-18 12:33:09:756 - info: [debug] executing cmd: "E:\work at ftcash\softwares\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe" -s 5ce6eee1 shell "getprop ro.build.version.sdk"
+2017-04-18 12:33:10:093 - info: [debug] Device is at API Level 23
+2017-04-18 12:33:10:093 - info: [debug] executing cmd: "E:\work at ftcash\softwares\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe" -s 5ce6eee1 shell "am start -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000 -n com.ftcash.agent/com.ftcash.agent.MainActivity"
+2017-04-18 12:33:11:461 - info: [debug] Waiting for pkg "com.ftcash.agent" and activity "com.ftcash.agent.MainActivity" to be focused
+2017-04-18 12:33:11:470 - info: [debug] Getting focused package and activity
+2017-04-18 12:33:11:471 - info: [debug] executing cmd: "E:\work at ftcash\softwares\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe" -s 5ce6eee1 shell "dumpsys window windows"
+2017-04-18 12:33:11:746 - info: [debug] executing cmd: "E:\work at ftcash\softwares\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe" -s 5ce6eee1 shell "getprop ro.build.version.release"
+2017-04-18 12:33:12:016 - info: [debug] Device is at release version 6.0.1
+2017-04-18 12:33:12:016 - info: [debug] Device launched! Ready for commands
+2017-04-18 12:33:12:016 - info: [debug] Setting command timeout to the default of 60 secs
+2017-04-18 12:33:12:016 - info: [debug] Appium session started with sessionId 6cfd1896-2926-42df-9229-8812dba57821
+2017-04-18 12:33:12:016 - info: <-- POST /wd/hub/session 303 9725.961 ms - 74 
+2017-04-18 12:33:12:063 - info: --> GET /wd/hub/session/6cfd1896-2926-42df-9229-8812dba57821 {}
+2017-04-18 12:33:12:063 - info: [debug] Responding to client with success: {"status":0,"value":{"platform":"LINUX","browserName":"Android","platformVersion":"6.0.1","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"appPackage":"com.ftcash.agent","appActivity":"com.ftcash.agent.MainActivity","appWaitActivity":"com.ftcash.agent.MainActivity","browserName":"Android","udid":"5ce6eee1","platformName":"Android","deviceName":"5ce6eee1","version":"6.0.1"},"appPackage":"com.ftcash.agent","appActivity":"com.ftcash.agent.MainActivity","appWaitActivity":"com.ftcash.agent.MainActivity","udid":"5ce6eee1","platformName":"Android","deviceName":"5ce6eee1","version":"6.0.1"},"sessionId":"6cfd1896-2926-42df-9229-8812dba57821"}
+2017-04-18 12:33:12:063 - info: <-- GET /wd/hub/session/6cfd1896-2926-42df-9229-8812dba57821 200 3.716 ms - 779 {"status":0,"value":{"platform":"LINUX","browserName":"Android","platformVersion":"6.0.1","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"appPackage":"com.ftcash.agent","appActivity":"com.ftcash.agent.MainActivity","appWaitActivity":"com.ftcash.agent.MainActivity","browserName":"Android","udid":"5ce6eee1","platformName":"Android","deviceName":"5ce6eee1","version":"6.0.1"},"appPackage":"com.ftcash.agent","appActivity":"com.ftcash.agent.MainActivity","appWaitActivity":"com.ftcash.agent.MainActivity","udid":"5ce6eee1","platformName":"Android","deviceName":"5ce6eee1","version":"6.0.1"},"sessionId":"6cfd1896-2926-42df-9229-8812dba57821"}
+2017-04-18 12:33:12:100 - info: --> POST /wd/hub/session/6cfd1896-2926-42df-9229-8812dba57821/timeouts {"type":"implicit","ms":15000}
+2017-04-18 12:33:12:100 - info: [debug] Set Android implicit wait to 15000ms
+2017-04-18 12:33:12:100 - info: [debug] Responding to client with success: {"status":0,"value":null,"sessionId":"6cfd1896-2926-42df-9229-8812dba57821"}
+2017-04-18 12:33:12:100 - info: <-- POST /wd/hub/session/6cfd1896-2926-42df-9229-8812dba57821/timeouts 200 1.932 ms - 76 {"status":0,"value":null,"sessionId":"6cfd1896-2926-42df-9229-8812dba57821"}
+2017-04-18 12:33:12:116 - info: --> POST /wd/hub/session/6cfd1896-2926-42df-9229-8812dba57821/element {"using":"id","value":"btn_create_merchant"}
+2017-04-18 12:33:12:116 - info: [debug] Waiting up to 15000ms for condition
+2017-04-18 12:33:12:116 - info: [debug] Pushing command to appium work queue: ["find",{"strategy":"id","selector":"btn_create_merchant","context":"","multiple":false}]
+2017-04-18 12:33:12:116 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"btn_create_merchant","context":"","multiple":false}}
+2017-04-18 12:33:12:116 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2017-04-18 12:33:12:116 - info: [debug] [BOOTSTRAP] [debug] Got command action: find
+2017-04-18 12:33:12:116 - info: [debug] [BOOTSTRAP] [debug] Finding btn_create_merchant using ID with the contextId:  multiple: false
+2017-04-18 12:33:12:116 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.ftcash.agent:id/btn_create_merchant]
+2017-04-18 12:33:12:116 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":{"ELEMENT":"1"}}
+2017-04-18 12:33:12:132 - info: [debug] Responding to client with success: {"status":0,"value":{"ELEMENT":"1"},"sessionId":"6cfd1896-2926-42df-9229-8812dba57821"}
+2017-04-18 12:33:12:132 - info: <-- POST /wd/hub/session/6cfd1896-2926-42df-9229-8812dba57821/element 200 16.489 ms - 87 {"status":0,"value":{"ELEMENT":"1"},"sessionId":"6cfd1896-2926-42df-9229-8812dba57821"}
+2017-04-18 12:33:12:147 - info: --> POST /wd/hub/session/6cfd1896-2926-42df-9229-8812dba57821/element/1/click {"id":"1"}
+2017-04-18 12:33:12:147 - info: [debug] Pushing command to appium work queue: ["element:click",{"elementId":"1"}]
+2017-04-18 12:33:12:147 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"1"}}
+2017-04-18 12:33:12:147 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2017-04-18 12:33:12:147 - info: [debug] [BOOTSTRAP] [debug] Got command action: click
+2017-04-18 12:33:12:498 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":true}
+2017-04-18 12:33:12:499 - info: [debug] Responding to client with success: {"status":0,"value":true,"sessionId":"6cfd1896-2926-42df-9229-8812dba57821"}
+2017-04-18 12:33:12:499 - info: <-- POST /wd/hub/session/6cfd1896-2926-42df-9229-8812dba57821/element/1/click 200 351.272 ms - 76 {"status":0,"value":true,"sessionId":"6cfd1896-2926-42df-9229-8812dba57821"}
+2017-04-18 12:33:12:533 - info: --> POST /wd/hub/session/6cfd1896-2926-42df-9229-8812dba57821/element {"using":"id","value":"edt_merchant_name"}
+2017-04-18 12:33:12:533 - info: [debug] Waiting up to 15000ms for condition
+2017-04-18 12:33:12:533 - info: [debug] Pushing command to appium work queue: ["find",{"strategy":"id","selector":"edt_merchant_name","context":"","multiple":false}]
+2017-04-18 12:33:12:533 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"edt_merchant_name","context":"","multiple":false}}
+2017-04-18 12:33:12:533 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2017-04-18 12:33:12:533 - info: [debug] [BOOTSTRAP] [debug] Got command action: find
+2017-04-18 12:33:12:533 - info: [debug] [BOOTSTRAP] [debug] Finding edt_merchant_name using ID with the contextId:  multiple: false
+2017-04-18 12:33:12:533 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.ftcash.agent:id/edt_merchant_name]
+2017-04-18 12:33:13:097 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":{"ELEMENT":"2"}}
+2017-04-18 12:33:13:098 - info: [debug] Responding to client with success: {"status":0,"value":{"ELEMENT":"2"},"sessionId":"6cfd1896-2926-42df-9229-8812dba57821"}
+2017-04-18 12:33:13:099 - info: <-- POST /wd/hub/session/6cfd1896-2926-42df-9229-8812dba57821/element 200 565.410 ms - 87 {"status":0,"value":{"ELEMENT":"2"},"sessionId":"6cfd1896-2926-42df-9229-8812dba57821"}
+2017-04-18 12:33:13:118 - info: --> POST /wd/hub/session/6cfd1896-2926-42df-9229-8812dba57821/element/2/clear {"id":"2"}
+2017-04-18 12:33:13:118 - info: [debug] Pushing command to appium work queue: ["element:clear",{"elementId":"2"}]
+2017-04-18 12:33:13:118 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"element:clear","params":{"elementId":"2"}}
+2017-04-18 12:33:13:118 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2017-04-18 12:33:13:118 - info: [debug] [BOOTSTRAP] [debug] Got command action: clear
+2017-04-18 12:33:13:118 - info: [debug] [BOOTSTRAP] [debug] Attempting to clear using UiObject.clearText().
+2017-04-18 12:33:15:643 - info: [debug] [BOOTSTRAP] [debug] Text remains after clearing, but it appears to be hint text.
+2017-04-18 12:33:15:657 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":true}
+2017-04-18 12:33:15:657 - info: [debug] Responding to client with success: {"status":0,"value":true,"sessionId":"6cfd1896-2926-42df-9229-8812dba57821"}
+2017-04-18 12:33:15:658 - info: <-- POST /wd/hub/session/6cfd1896-2926-42df-9229-8812dba57821/element/2/clear 200 2538.464 ms - 76 {"status":0,"value":true,"sessionId":"6cfd1896-2926-42df-9229-8812dba57821"}
+2017-04-18 12:33:15:674 - info: --> POST /wd/hub/session/6cfd1896-2926-42df-9229-8812dba57821/element {"using":"id","value":"edt_merchant_name"}
+2017-04-18 12:33:15:674 - info: [debug] Waiting up to 15000ms for condition
+2017-04-18 12:33:15:674 - info: [debug] Pushing command to appium work queue: ["find",{"strategy":"id","selector":"edt_merchant_name","context":"","multiple":false}]
+2017-04-18 12:33:15:674 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"edt_merchant_name","context":"","multiple":false}}
+2017-04-18 12:33:15:674 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2017-04-18 12:33:15:674 - info: [debug] [BOOTSTRAP] [debug] Got command action: find
+2017-04-18 12:33:15:674 - info: [debug] [BOOTSTRAP] [debug] Finding edt_merchant_name using ID with the contextId:  multiple: false
+2017-04-18 12:33:15:674 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.ftcash.agent:id/edt_merchant_name]
+2017-04-18 12:33:15:689 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":{"ELEMENT":"3"}}
+2017-04-18 12:33:15:689 - info: [debug] Responding to client with success: {"status":0,"value":{"ELEMENT":"3"},"sessionId":"6cfd1896-2926-42df-9229-8812dba57821"}
+2017-04-18 12:33:15:689 - info: <-- POST /wd/hub/session/6cfd1896-2926-42df-9229-8812dba57821/element 200 27.241 ms - 87 {"status":0,"value":{"ELEMENT":"3"},"sessionId":"6cfd1896-2926-42df-9229-8812dba57821"}
+2017-04-18 12:33:15:711 - info: --> POST /wd/hub/session/6cfd1896-2926-42df-9229-8812dba57821/element/3/value {"id":"3","value":["priyanktest"]}
+2017-04-18 12:33:15:711 - info: [debug] Pushing command to appium work queue: ["element:setText",{"elementId":"3","text":"priyanktest","replace":false}]
+2017-04-18 12:33:15:712 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"element:setText","params":{"elementId":"3","text":"priyanktest","replace":false}}
+2017-04-18 12:33:15:712 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2017-04-18 12:33:15:712 - info: [debug] [BOOTSTRAP] [debug] Got command action: setText
+2017-04-18 12:33:15:712 - info: [debug] [BOOTSTRAP] [debug] Using element passed in.
+2017-04-18 12:33:15:728 - info: [debug] [BOOTSTRAP] [debug] Attempting to clear using UiObject.clearText().
+2017-04-18 12:33:18:118 - info: [debug] [BOOTSTRAP] [debug] Text remains after clearing, but it appears to be hint text.
+2017-04-18 12:33:18:134 - info: [debug] [BOOTSTRAP] [debug] Text not cleared. Assuming remainder is hint text.
+2017-04-18 12:33:18:134 - info: [debug] [BOOTSTRAP] [debug] Sending plain text to element: priyanktest
+2017-04-18 12:33:21:411 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":true}
+2017-04-18 12:33:21:412 - info: [debug] Responding to client with success: {"status":0,"value":true,"sessionId":"6cfd1896-2926-42df-9229-8812dba57821"}
+2017-04-18 12:33:21:412 - info: <-- POST /wd/hub/session/6cfd1896-2926-42df-9229-8812dba57821/element/3/value 200 5702.572 ms - 76 {"status":0,"value":true,"sessionId":"6cfd1896-2926-42df-9229-8812dba57821"}
+2017-04-18 12:33:21:449 - info: --> POST /wd/hub/session/6cfd1896-2926-42df-9229-8812dba57821/appium/device/hide_keyboard {}
+2017-04-18 12:33:21:449 - info: [debug] executing cmd: "E:\work at ftcash\softwares\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe" -s 5ce6eee1 shell "dumpsys input_method"
+2017-04-18 12:33:21:733 - info: [debug] Pushing command to appium work queue: ["pressBack"]
+2017-04-18 12:33:21:733 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"pressBack","params":{}}
+2017-04-18 12:33:21:733 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2017-04-18 12:33:21:733 - info: [debug] [BOOTSTRAP] [debug] Got command action: pressBack
+2017-04-18 12:33:22:034 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":true}
+2017-04-18 12:33:22:034 - info: [debug] Responding to client with success: {"status":0,"value":true,"sessionId":"6cfd1896-2926-42df-9229-8812dba57821"}
+2017-04-18 12:33:22:034 - info: <-- POST /wd/hub/session/6cfd1896-2926-42df-9229-8812dba57821/appium/device/hide_keyboard 200 590.575 ms - 76 {"status":0,"value":true,"sessionId":"6cfd1896-2926-42df-9229-8812dba57821"}
+2017-04-18 12:33:22:081 - info: --> POST /wd/hub/session/6cfd1896-2926-42df-9229-8812dba57821/element {"using":"id","value":"edt_shop_name_visit"}
+2017-04-18 12:33:22:081 - info: [debug] Waiting up to 15000ms for condition
+2017-04-18 12:33:22:081 - info: [debug] Pushing command to appium work queue: ["find",{"strategy":"id","selector":"edt_shop_name_visit","context":"","multiple":false}]
+2017-04-18 12:33:22:081 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"edt_shop_name_visit","context":"","multiple":false}}
+2017-04-18 12:33:22:081 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2017-04-18 12:33:22:081 - info: [debug] [BOOTSTRAP] [debug] Got command action: find
+2017-04-18 12:33:22:081 - info: [debug] [BOOTSTRAP] [debug] Finding edt_shop_name_visit using ID with the contextId:  multiple: false
+2017-04-18 12:33:22:081 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.ftcash.agent:id/edt_shop_name_visit]
+2017-04-18 12:33:22:684 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":{"ELEMENT":"4"}}
+2017-04-18 12:33:22:691 - info: [debug] Responding to client with success: {"status":0,"value":{"ELEMENT":"4"},"sessionId":"6cfd1896-2926-42df-9229-8812dba57821"}
+2017-04-18 12:33:22:692 - info: <-- POST /wd/hub/session/6cfd1896-2926-42df-9229-8812dba57821/element 200 609.822 ms - 87 {"status":0,"value":{"ELEMENT":"4"},"sessionId":"6cfd1896-2926-42df-9229-8812dba57821"}
+2017-04-18 12:33:22:708 - info: --> POST /wd/hub/session/6cfd1896-2926-42df-9229-8812dba57821/element/4/clear {"id":"4"}
+2017-04-18 12:33:22:708 - info: [debug] Pushing command to appium work queue: ["element:clear",{"elementId":"4"}]
+2017-04-18 12:33:22:708 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"element:clear","params":{"elementId":"4"}}
+2017-04-18 12:33:22:708 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2017-04-18 12:33:22:708 - info: [debug] [BOOTSTRAP] [debug] Got command action: clear
+2017-04-18 12:33:22:708 - info: [debug] [BOOTSTRAP] [debug] Attempting to clear using UiObject.clearText().
+2017-04-18 12:33:25:663 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":true}
+2017-04-18 12:33:25:675 - info: [debug] Responding to client with success: {"status":0,"value":true,"sessionId":"6cfd1896-2926-42df-9229-8812dba57821"}
+2017-04-18 12:33:25:676 - info: <-- POST /wd/hub/session/6cfd1896-2926-42df-9229-8812dba57821/element/4/clear 200 2966.693 ms - 76 {"status":0,"value":true,"sessionId":"6cfd1896-2926-42df-9229-8812dba57821"}
+2017-04-18 12:33:25:693 - info: --> POST /wd/hub/session/6cfd1896-2926-42df-9229-8812dba57821/element {"using":"id","value":"edt_shop_name_visit"}
+2017-04-18 12:33:25:693 - info: [debug] Waiting up to 15000ms for condition
+2017-04-18 12:33:25:693 - info: [debug] Pushing command to appium work queue: ["find",{"strategy":"id","selector":"edt_shop_name_visit","context":"","multiple":false}]
+2017-04-18 12:33:25:693 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"edt_shop_name_visit","context":"","multiple":false}}
+2017-04-18 12:33:25:693 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2017-04-18 12:33:25:693 - info: [debug] [BOOTSTRAP] [debug] Got command action: find
+2017-04-18 12:33:25:693 - info: [debug] [BOOTSTRAP] [debug] Finding edt_shop_name_visit using ID with the contextId:  multiple: false
+2017-04-18 12:33:25:693 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.ftcash.agent:id/edt_shop_name_visit]
+2017-04-18 12:33:25:709 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":{"ELEMENT":"5"}}
+2017-04-18 12:33:25:709 - info: [debug] Responding to client with success: {"status":0,"value":{"ELEMENT":"5"},"sessionId":"6cfd1896-2926-42df-9229-8812dba57821"}
+2017-04-18 12:33:25:709 - info: <-- POST /wd/hub/session/6cfd1896-2926-42df-9229-8812dba57821/element 200 25.488 ms - 87 {"status":0,"value":{"ELEMENT":"5"},"sessionId":"6cfd1896-2926-42df-9229-8812dba57821"}
+2017-04-18 12:33:25:724 - info: --> POST /wd/hub/session/6cfd1896-2926-42df-9229-8812dba57821/element/5/value {"id":"5","value":["priyanktest"]}
+2017-04-18 12:33:25:724 - info: [debug] Pushing command to appium work queue: ["element:setText",{"elementId":"5","text":"priyanktest","replace":false}]
+2017-04-18 12:33:25:724 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"element:setText","params":{"elementId":"5","text":"priyanktest","replace":false}}
+2017-04-18 12:33:25:724 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2017-04-18 12:33:25:724 - info: [debug] [BOOTSTRAP] [debug] Got command action: setText
+2017-04-18 12:33:25:724 - info: [debug] [BOOTSTRAP] [debug] Using element passed in.
+2017-04-18 12:33:25:745 - info: [debug] [BOOTSTRAP] [debug] Attempting to clear using UiObject.clearText().
+2017-04-18 12:33:28:203 - info: [debug] [BOOTSTRAP] [debug] Sending plain text to element: priyanktest
+2017-04-18 12:33:30:781 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":true}
+2017-04-18 12:33:30:795 - info: [debug] Responding to client with success: {"status":0,"value":true,"sessionId":"6cfd1896-2926-42df-9229-8812dba57821"}
+2017-04-18 12:33:30:796 - info: <-- POST /wd/hub/session/6cfd1896-2926-42df-9229-8812dba57821/element/5/value 200 5069.715 ms - 76 {"status":0,"value":true,"sessionId":"6cfd1896-2926-42df-9229-8812dba57821"}
+2017-04-18 12:33:30:827 - info: --> POST /wd/hub/session/6cfd1896-2926-42df-9229-8812dba57821/appium/device/hide_keyboard {}
+2017-04-18 12:33:30:827 - info: [debug] executing cmd: "E:\work at ftcash\softwares\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe" -s 5ce6eee1 shell "dumpsys input_method"
+2017-04-18 12:33:31:113 - info: [debug] Pushing command to appium work queue: ["pressBack"]
+2017-04-18 12:33:31:113 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"pressBack","params":{}}
+2017-04-18 12:33:31:113 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2017-04-18 12:33:31:113 - info: [debug] [BOOTSTRAP] [debug] Got command action: pressBack
+2017-04-18 12:33:31:414 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":true}
+2017-04-18 12:33:31:414 - info: [debug] Responding to client with success: {"status":0,"value":true,"sessionId":"6cfd1896-2926-42df-9229-8812dba57821"}
+2017-04-18 12:33:31:414 - info: <-- POST /wd/hub/session/6cfd1896-2926-42df-9229-8812dba57821/appium/device/hide_keyboard 200 591.006 ms - 76 {"status":0,"value":true,"sessionId":"6cfd1896-2926-42df-9229-8812dba57821"}
+2017-04-18 12:33:31:445 - info: --> POST /wd/hub/session/6cfd1896-2926-42df-9229-8812dba57821/element {"using":"-android uiautomator","value":"new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().descriptionContains(\"Digital payment method used\").instance(0));new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().textContains(\"Digital payment method used\").instance(0));"}
+2017-04-18 12:33:31:445 - info: [debug] Waiting up to 15000ms for condition
+2017-04-18 12:33:31:445 - info: [debug] Pushing command to appium work queue: ["find",{"strategy":"-android uiautomator","selector":"new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().descriptionContains(\"Digital payment method used\").instance(0));new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().textContains(\"Digital payment method used\").instance(0));","context":"","multiple":false}]
+2017-04-18 12:33:31:445 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"-android uiautomator","selector":"new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().descriptionContains(\"Digital payment method used\").instance(0));new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().textContains(\"Digital payment method used\").instance(0));","context":"","multiple":false}}
+2017-04-18 12:33:31:445 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2017-04-18 12:33:31:445 - info: [debug] [BOOTSTRAP] [debug] Got command action: find
+2017-04-18 12:33:31:445 - info: [debug] [BOOTSTRAP] [debug] Finding new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().descriptionContains("Digital payment method used").instance(0));new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().textContains("Digital payment method used").instance(0)); using ANDROID_UIAUTOMATOR with the contextId:  multiple: false
+2017-04-18 12:33:31:445 - info: [debug] [BOOTSTRAP] [debug] Parsing scrollable: new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().descriptionContains("Digital payment method used").instance(0))
+2017-04-18 12:33:31:445 - info: [debug] [BOOTSTRAP] [debug] UiSelector coerce type: boolean arg: true
+2017-04-18 12:33:31:445 - info: [debug] [BOOTSTRAP] [debug] UiSelector coerce type: int arg: 0
+2017-04-18 12:33:31:461 - info: [debug] [BOOTSTRAP] [debug] UiScrollable invoking method: public boolean com.android.uiautomator.core.UiScrollable.scrollIntoView(com.android.uiautomator.core.UiObject) throws com.android.uiautomator.core.UiObjectNotFoundException args: new UiSelector().descriptionContains("Digital payment method used").instance(0), 
+2017-04-18 12:33:31:462 - info: [debug] [BOOTSTRAP] [debug] UiScrollable coerce type: class com.android.uiautomator.core.UiObject arg: new UiSelector().descriptionContains("Digital payment method used").instance(0)
+2017-04-18 12:33:31:463 - info: [debug] [BOOTSTRAP] [debug] UiSelector coerce type: class java.lang.String arg: "Digital payment method used"
+2017-04-18 12:33:31:463 - info: [debug] [BOOTSTRAP] [debug] UiSelector coerce type: int arg: 0
+2017-04-18 12:33:31:463 - info: [debug] [BOOTSTRAP] [debug] Method name: scrollIntoView
+2017-04-18 12:33:31:463 - info: [debug] [BOOTSTRAP] [debug] Setting uiObject for scrollIntoView
+2017-04-18 12:33:32:061 - info: [debug] [BOOTSTRAP] [debug] Invoking method: public boolean com.android.uiautomator.core.UiScrollable.scrollIntoView(com.android.uiautomator.core.UiObject) throws com.android.uiautomator.core.UiObjectNotFoundException with: com.android.uiautomator.core.UiObject@ca73b27
+2017-04-18 12:33:34:975 - info: [debug] [BOOTSTRAP] [debug] Invoke complete.
+2017-04-18 12:33:34:975 - info: [debug] [BOOTSTRAP] [debug] Parsing scrollable: new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().textContains("Digital payment method used").instance(0))
+2017-04-18 12:33:34:975 - info: [debug] [BOOTSTRAP] [debug] UiSelector coerce type: boolean arg: true
+2017-04-18 12:33:34:975 - info: [debug] [BOOTSTRAP] [debug] UiSelector coerce type: int arg: 0
+2017-04-18 12:33:34:975 - info: [debug] [BOOTSTRAP] [debug] UiScrollable invoking method: public boolean com.android.uiautomator.core.UiScrollable.scrollIntoView(com.android.uiautomator.core.UiObject) throws com.android.uiautomator.core.UiObjectNotFoundException args: new UiSelector().textContains("Digital payment method used").instance(0), 
+2017-04-18 12:33:34:975 - info: [debug] [BOOTSTRAP] [debug] UiScrollable coerce type: class com.android.uiautomator.core.UiObject arg: new UiSelector().textContains("Digital payment method used").instance(0)
+2017-04-18 12:33:34:975 - info: [debug] [BOOTSTRAP] [debug] UiSelector coerce type: class java.lang.String arg: "Digital payment method used"
+2017-04-18 12:33:34:975 - info: [debug] [BOOTSTRAP] [debug] UiSelector coerce type: int arg: 0
+2017-04-18 12:33:34:975 - info: [debug] [BOOTSTRAP] [debug] Method name: scrollIntoView
+2017-04-18 12:33:34:975 - info: [debug] [BOOTSTRAP] [debug] Setting uiObject for scrollIntoView
+2017-04-18 12:33:35:031 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[CONTAINS_DESCRIPTION=Digital payment method used, INSTANCE=0]
+2017-04-18 12:33:35:160 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[CONTAINS_TEXT=Digital payment method used, INSTANCE=0]
+2017-04-18 12:33:35:190 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":{"ELEMENT":"6"}}
+2017-04-18 12:33:35:191 - info: [debug] Responding to client with success: {"status":0,"value":{"ELEMENT":"6"},"sessionId":"6cfd1896-2926-42df-9229-8812dba57821"}
+2017-04-18 12:33:35:191 - info: <-- POST /wd/hub/session/6cfd1896-2926-42df-9229-8812dba57821/element 200 3745.611 ms - 87 {"status":0,"value":{"ELEMENT":"6"},"sessionId":"6cfd1896-2926-42df-9229-8812dba57821"}
+2017-04-18 12:33:35:196 - info: --> GET /wd/hub/session/6cfd1896-2926-42df-9229-8812dba57821/window/current/size {}
+2017-04-18 12:33:35:196 - info: [debug] Pushing command to appium work queue: ["getDeviceSize"]
+2017-04-18 12:33:35:200 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"getDeviceSize","params":{}}
+2017-04-18 12:33:35:200 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2017-04-18 12:33:35:201 - info: [debug] [BOOTSTRAP] [debug] Got command action: getDeviceSize
+2017-04-18 12:33:35:202 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":{"height":1920,"width":1080}}
+2017-04-18 12:33:35:203 - info: [debug] Responding to client with success: {"status":0,"value":{"height":1920,"width":1080},"sessionId":"6cfd1896-2926-42df-9229-8812dba57821"}
+2017-04-18 12:33:35:204 - info: <-- GET /wd/hub/session/6cfd1896-2926-42df-9229-8812dba57821/window/current/size 200 7.677 ms - 100 {"status":0,"value":{"height":1920,"width":1080},"sessionId":"6cfd1896-2926-42df-9229-8812dba57821"}
+2017-04-18 12:33:35:207 - info: --> POST /wd/hub/session/6cfd1896-2926-42df-9229-8812dba57821/touch/perform {"actions":[{"action":"press","options":{"x":864,"y":960}},{"action":"wait","options":{"ms":3000}},{"action":"moveTo","options":{"x":108,"y":960}},{"action":"release","options":{}}]}
+2017-04-18 12:33:35:208 - info: [debug] Pushing command to appium work queue: ["swipe",{"startX":864,"startY":960,"endX":108,"endY":960,"steps":84}]
+2017-04-18 12:33:35:210 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"swipe","params":{"startX":864,"startY":960,"endX":108,"endY":960,"steps":84}}
+2017-04-18 12:33:35:210 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2017-04-18 12:33:35:210 - info: [debug] [BOOTSTRAP] [debug] Got command action: swipe
+2017-04-18 12:33:35:212 - info: [debug] [BOOTSTRAP] [debug] Display bounds: [0,0][1080,1920]
+2017-04-18 12:33:35:213 - info: [debug] [BOOTSTRAP] [debug] Display bounds: [0,0][1080,1920]
+2017-04-18 12:33:35:214 - info: [debug] [BOOTSTRAP] [debug] Swiping from [x=864.0, y=960.0] to [x=108.0, y=960.0] with steps: 84
+2017-04-18 12:33:36:703 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":true}
+2017-04-18 12:33:36:704 - info: [debug] Responding to client with success: {"status":0,"value":true,"sessionId":"6cfd1896-2926-42df-9229-8812dba57821"}
+2017-04-18 12:33:36:705 - info: <-- POST /wd/hub/session/6cfd1896-2926-42df-9229-8812dba57821/touch/perform 200 1497.867 ms - 76 {"status":0,"value":true,"sessionId":"6cfd1896-2926-42df-9229-8812dba57821"}
+2017-04-18 12:33:38:728 - info: --> POST /wd/hub/session/6cfd1896-2926-42df-9229-8812dba57821/element {"using":"id","value":"chb_swipe_machine"}
+2017-04-18 12:33:38:728 - info: [debug] Waiting up to 15000ms for condition
+2017-04-18 12:33:38:729 - info: [debug] Pushing command to appium work queue: ["find",{"strategy":"id","selector":"chb_swipe_machine","context":"","multiple":false}]
+2017-04-18 12:33:38:734 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"chb_swipe_machine","context":"","multiple":false}}
+2017-04-18 12:33:38:734 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2017-04-18 12:33:38:734 - info: [debug] [BOOTSTRAP] [debug] Got command action: find
+2017-04-18 12:33:38:734 - info: [debug] [BOOTSTRAP] [debug] Finding chb_swipe_machine using ID with the contextId:  multiple: false
+2017-04-18 12:33:38:734 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.ftcash.agent:id/chb_swipe_machine]
+2017-04-18 12:33:38:753 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":{"ELEMENT":"7"}}
+2017-04-18 12:33:38:754 - info: [debug] Responding to client with success: {"status":0,"value":{"ELEMENT":"7"},"sessionId":"6cfd1896-2926-42df-9229-8812dba57821"}
+2017-04-18 12:33:38:754 - info: <-- POST /wd/hub/session/6cfd1896-2926-42df-9229-8812dba57821/element 200 26.841 ms - 87 {"status":0,"value":{"ELEMENT":"7"},"sessionId":"6cfd1896-2926-42df-9229-8812dba57821"}
+2017-04-18 12:33:38:757 - info: --> POST /wd/hub/session/6cfd1896-2926-42df-9229-8812dba57821/element/7/click {"id":"7"}
+2017-04-18 12:33:38:757 - info: [debug] Pushing command to appium work queue: ["element:click",{"elementId":"7"}]
+2017-04-18 12:33:38:759 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"7"}}
+2017-04-18 12:33:38:760 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2017-04-18 12:33:38:760 - info: [debug] [BOOTSTRAP] [debug] Got command action: click
+2017-04-18 12:33:38:930 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":true}
+2017-04-18 12:33:38:930 - info: [debug] Responding to client with success: {"status":0,"value":true,"sessionId":"6cfd1896-2926-42df-9229-8812dba57821"}
+2017-04-18 12:33:38:930 - info: <-- POST /wd/hub/session/6cfd1896-2926-42df-9229-8812dba57821/element/7/click 200 173.013 ms - 76 {"status":0,"value":true,"sessionId":"6cfd1896-2926-42df-9229-8812dba57821"}
+2017-04-18 12:33:38:947 - info: --> POST /wd/hub/session/6cfd1896-2926-42df-9229-8812dba57821/element {"using":"id","value":"chb_paytm"}
+2017-04-18 12:33:38:947 - info: [debug] Waiting up to 15000ms for condition
+2017-04-18 12:33:38:947 - info: [debug] Pushing command to appium work queue: ["find",{"strategy":"id","selector":"chb_paytm","context":"","multiple":false}]
+2017-04-18 12:33:38:949 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"chb_paytm","context":"","multiple":false}}
+2017-04-18 12:33:38:950 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2017-04-18 12:33:38:950 - info: [debug] [BOOTSTRAP] [debug] Got command action: find
+2017-04-18 12:33:38:950 - info: [debug] [BOOTSTRAP] [debug] Finding chb_paytm using ID with the contextId:  multiple: false
+2017-04-18 12:33:38:950 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.ftcash.agent:id/chb_paytm]
+2017-04-18 12:33:39:472 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":{"ELEMENT":"8"}}
+2017-04-18 12:33:39:472 - info: [debug] Responding to client with success: {"status":0,"value":{"ELEMENT":"8"},"sessionId":"6cfd1896-2926-42df-9229-8812dba57821"}
+2017-04-18 12:33:39:473 - info: <-- POST /wd/hub/session/6cfd1896-2926-42df-9229-8812dba57821/element 200 526.601 ms - 87 {"status":0,"value":{"ELEMENT":"8"},"sessionId":"6cfd1896-2926-42df-9229-8812dba57821"}
+2017-04-18 12:33:39:479 - info: --> POST /wd/hub/session/6cfd1896-2926-42df-9229-8812dba57821/element/8/click {"id":"8"}
+2017-04-18 12:33:39:479 - info: [debug] Pushing command to appium work queue: ["element:click",{"elementId":"8"}]
+2017-04-18 12:33:39:483 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"8"}}
+2017-04-18 12:33:39:484 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2017-04-18 12:33:39:485 - info: [debug] [BOOTSTRAP] [debug] Got command action: click
+2017-04-18 12:33:39:673 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":true}
+2017-04-18 12:33:39:674 - info: [debug] Responding to client with success: {"status":0,"value":true,"sessionId":"6cfd1896-2926-42df-9229-8812dba57821"}
+2017-04-18 12:33:39:674 - info: <-- POST /wd/hub/session/6cfd1896-2926-42df-9229-8812dba57821/element/8/click 200 196.014 ms - 76 {"status":0,"value":true,"sessionId":"6cfd1896-2926-42df-9229-8812dba57821"}
+2017-04-18 12:33:39:684 - info: --> POST /wd/hub/session/6cfd1896-2926-42df-9229-8812dba57821/element {"using":"id","value":"rb_agree"}
+2017-04-18 12:33:39:684 - info: [debug] Waiting up to 15000ms for condition
+2017-04-18 12:33:39:685 - info: [debug] Pushing command to appium work queue: ["find",{"strategy":"id","selector":"rb_agree","context":"","multiple":false}]
+2017-04-18 12:33:39:688 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"rb_agree","context":"","multiple":false}}
+2017-04-18 12:33:39:688 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2017-04-18 12:33:39:688 - info: [debug] [BOOTSTRAP] [debug] Got command action: find
+2017-04-18 12:33:39:688 - info: [debug] [BOOTSTRAP] [debug] Finding rb_agree using ID with the contextId:  multiple: false
+2017-04-18 12:33:39:688 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.ftcash.agent:id/rb_agree]
+2017-04-18 12:33:40:176 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":{"ELEMENT":"9"}}
+2017-04-18 12:33:40:186 - info: [debug] Responding to client with success: {"status":0,"value":{"ELEMENT":"9"},"sessionId":"6cfd1896-2926-42df-9229-8812dba57821"}
+2017-04-18 12:33:40:196 - info: <-- POST /wd/hub/session/6cfd1896-2926-42df-9229-8812dba57821/element 200 513.572 ms - 87 {"status":0,"value":{"ELEMENT":"9"},"sessionId":"6cfd1896-2926-42df-9229-8812dba57821"}
+2017-04-18 12:33:40:212 - info: --> POST /wd/hub/session/6cfd1896-2926-42df-9229-8812dba57821/element/9/click {"id":"9"}
+2017-04-18 12:33:40:212 - info: [debug] Pushing command to appium work queue: ["element:click",{"elementId":"9"}]
+2017-04-18 12:33:40:212 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"9"}}
+2017-04-18 12:33:40:212 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2017-04-18 12:33:40:212 - info: [debug] [BOOTSTRAP] [debug] Got command action: click
+2017-04-18 12:33:40:359 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":true}
+2017-04-18 12:33:40:359 - info: [debug] Responding to client with success: {"status":0,"value":true,"sessionId":"6cfd1896-2926-42df-9229-8812dba57821"}
+2017-04-18 12:33:40:359 - info: <-- POST /wd/hub/session/6cfd1896-2926-42df-9229-8812dba57821/element/9/click 200 156.385 ms - 76 {"status":0,"value":true,"sessionId":"6cfd1896-2926-42df-9229-8812dba57821"}
+2017-04-18 12:33:40:391 - info: --> POST /wd/hub/session/6cfd1896-2926-42df-9229-8812dba57821/element {"using":"id","value":"btn_next_visit"}
+2017-04-18 12:33:40:392 - info: [debug] Waiting up to 15000ms for condition
+2017-04-18 12:33:40:392 - info: [debug] Pushing command to appium work queue: ["find",{"strategy":"id","selector":"btn_next_visit","context":"","multiple":false}]
+2017-04-18 12:33:40:395 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"btn_next_visit","context":"","multiple":false}}
+2017-04-18 12:33:40:395 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2017-04-18 12:33:40:395 - info: [debug] [BOOTSTRAP] [debug] Got command action: find
+2017-04-18 12:33:40:395 - info: [debug] [BOOTSTRAP] [debug] Finding btn_next_visit using ID with the contextId:  multiple: false
+2017-04-18 12:33:40:395 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.ftcash.agent:id/btn_next_visit]
+2017-04-18 12:33:40:875 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":{"ELEMENT":"10"}}
+2017-04-18 12:33:40:875 - info: [debug] Responding to client with success: {"status":0,"value":{"ELEMENT":"10"},"sessionId":"6cfd1896-2926-42df-9229-8812dba57821"}
+2017-04-18 12:33:40:875 - info: <-- POST /wd/hub/session/6cfd1896-2926-42df-9229-8812dba57821/element 200 494.896 ms - 88 {"status":0,"value":{"ELEMENT":"10"},"sessionId":"6cfd1896-2926-42df-9229-8812dba57821"}
+2017-04-18 12:33:40:893 - info: --> POST /wd/hub/session/6cfd1896-2926-42df-9229-8812dba57821/element/10/click {"id":"10"}
+2017-04-18 12:33:40:893 - info: [debug] Pushing command to appium work queue: ["element:click",{"elementId":"10"}]
+2017-04-18 12:33:40:897 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"10"}}
+2017-04-18 12:33:40:897 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2017-04-18 12:33:40:897 - info: [debug] [BOOTSTRAP] [debug] Got command action: click
+2017-04-18 12:33:41:229 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":true}
+2017-04-18 12:33:41:231 - info: [debug] Responding to client with success: {"status":0,"value":true,"sessionId":"6cfd1896-2926-42df-9229-8812dba57821"}
+2017-04-18 12:33:41:232 - info: <-- POST /wd/hub/session/6cfd1896-2926-42df-9229-8812dba57821/element/10/click 200 339.071 ms - 76 {"status":0,"value":true,"sessionId":"6cfd1896-2926-42df-9229-8812dba57821"}
+2017-04-18 12:33:41:263 - info: --> POST /wd/hub/session/6cfd1896-2926-42df-9229-8812dba57821/element {"using":"id","value":"btn_next_visit"}
+2017-04-18 12:33:41:263 - info: [debug] Waiting up to 15000ms for condition
+2017-04-18 12:33:41:263 - info: [debug] Pushing command to appium work queue: ["find",{"strategy":"id","selector":"btn_next_visit","context":"","multiple":false}]
+2017-04-18 12:33:41:263 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"btn_next_visit","context":"","multiple":false}}
+2017-04-18 12:33:41:263 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2017-04-18 12:33:41:263 - info: [debug] [BOOTSTRAP] [debug] Got command action: find
+2017-04-18 12:33:41:263 - info: [debug] [BOOTSTRAP] [debug] Finding btn_next_visit using ID with the contextId:  multiple: false
+2017-04-18 12:33:41:263 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.ftcash.agent:id/btn_next_visit]
+2017-04-18 12:33:41:906 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=android:id/btn_next_visit]
+2017-04-18 12:33:41:937 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[DESCRIPTION=btn_next_visit, INSTANCE=0]
+2017-04-18 12:33:41:969 - info: [debug] [BOOTSTRAP] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2017-04-18 12:33:41:969 - info: [debug] [BOOTSTRAP] [debug] Finding btn_next_visit using ID with the contextId:  multiple: false
+2017-04-18 12:33:41:969 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.ftcash.agent:id/btn_next_visit]
+2017-04-18 12:33:41:984 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=android:id/btn_next_visit]
+2017-04-18 12:33:42:003 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[DESCRIPTION=btn_next_visit, INSTANCE=0]
+2017-04-18 12:33:42:021 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":7,"value":"No element found"}
+2017-04-18 12:33:42:021 - info: [debug] Waited for 758ms so far
+2017-04-18 12:33:42:535 - info: [debug] Pushing command to appium work queue: ["find",{"strategy":"id","selector":"btn_next_visit","context":"","multiple":false}]
+2017-04-18 12:33:42:537 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"btn_next_visit","context":"","multiple":false}}
+2017-04-18 12:33:42:537 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2017-04-18 12:33:42:537 - info: [debug] [BOOTSTRAP] [debug] Got command action: find
+2017-04-18 12:33:42:537 - info: [debug] [BOOTSTRAP] [debug] Finding btn_next_visit using ID with the contextId:  multiple: false
+2017-04-18 12:33:42:537 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.ftcash.agent:id/btn_next_visit]
+2017-04-18 12:33:42:983 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=android:id/btn_next_visit]
+2017-04-18 12:33:43:001 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[DESCRIPTION=btn_next_visit, INSTANCE=0]
+2017-04-18 12:33:43:005 - info: [debug] [BOOTSTRAP] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2017-04-18 12:33:43:005 - info: [debug] [BOOTSTRAP] [debug] Finding btn_next_visit using ID with the contextId:  multiple: false
+2017-04-18 12:33:43:005 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.ftcash.agent:id/btn_next_visit]
+2017-04-18 12:33:43:030 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=android:id/btn_next_visit]
+2017-04-18 12:33:43:205 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[DESCRIPTION=btn_next_visit, INSTANCE=0]
+2017-04-18 12:33:43:205 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":7,"value":"No element found"}
+2017-04-18 12:33:43:205 - info: [debug] Waited for 1942ms so far
+2017-04-18 12:33:43:721 - info: [debug] Pushing command to appium work queue: ["find",{"strategy":"id","selector":"btn_next_visit","context":"","multiple":false}]
+2017-04-18 12:33:43:723 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"btn_next_visit","context":"","multiple":false}}
+2017-04-18 12:33:43:723 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2017-04-18 12:33:43:723 - info: [debug] [BOOTSTRAP] [debug] Got command action: find
+2017-04-18 12:33:43:723 - info: [debug] [BOOTSTRAP] [debug] Finding btn_next_visit using ID with the contextId:  multiple: false
+2017-04-18 12:33:43:723 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.ftcash.agent:id/btn_next_visit]
+2017-04-18 12:33:43:770 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=android:id/btn_next_visit]
+2017-04-18 12:33:43:906 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[DESCRIPTION=btn_next_visit, INSTANCE=0]
+2017-04-18 12:33:44:026 - info: [debug] [BOOTSTRAP] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2017-04-18 12:33:44:027 - info: [debug] [BOOTSTRAP] [debug] Finding btn_next_visit using ID with the contextId:  multiple: false
+2017-04-18 12:33:44:027 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.ftcash.agent:id/btn_next_visit]
+2017-04-18 12:33:44:102 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=android:id/btn_next_visit]
+2017-04-18 12:33:44:142 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[DESCRIPTION=btn_next_visit, INSTANCE=0]
+2017-04-18 12:33:44:173 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":7,"value":"No element found"}
+2017-04-18 12:33:44:173 - info: [debug] Waited for 2910ms so far
+2017-04-18 12:33:44:675 - info: [debug] Pushing command to appium work queue: ["find",{"strategy":"id","selector":"btn_next_visit","context":"","multiple":false}]
+2017-04-18 12:33:44:675 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"btn_next_visit","context":"","multiple":false}}
+2017-04-18 12:33:44:675 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2017-04-18 12:33:44:675 - info: [debug] [BOOTSTRAP] [debug] Got command action: find
+2017-04-18 12:33:44:675 - info: [debug] [BOOTSTRAP] [debug] Finding btn_next_visit using ID with the contextId:  multiple: false
+2017-04-18 12:33:44:675 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.ftcash.agent:id/btn_next_visit]
+2017-04-18 12:33:44:775 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=android:id/btn_next_visit]
+2017-04-18 12:33:44:793 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[DESCRIPTION=btn_next_visit, INSTANCE=0]
+2017-04-18 12:33:44:813 - info: [debug] [BOOTSTRAP] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2017-04-18 12:33:44:813 - info: [debug] [BOOTSTRAP] [debug] Finding btn_next_visit using ID with the contextId:  multiple: false
+2017-04-18 12:33:44:813 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.ftcash.agent:id/btn_next_visit]
+2017-04-18 12:33:44:828 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=android:id/btn_next_visit]
+2017-04-18 12:33:44:844 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[DESCRIPTION=btn_next_visit, INSTANCE=0]
+2017-04-18 12:33:44:944 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":7,"value":"No element found"}
+2017-04-18 12:33:44:944 - info: [debug] Waited for 3681ms so far
+2017-04-18 12:33:45:445 - info: [debug] Pushing command to appium work queue: ["find",{"strategy":"id","selector":"btn_next_visit","context":"","multiple":false}]
+2017-04-18 12:33:45:445 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"btn_next_visit","context":"","multiple":false}}
+2017-04-18 12:33:45:445 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2017-04-18 12:33:45:445 - info: [debug] [BOOTSTRAP] [debug] Got command action: find
+2017-04-18 12:33:45:445 - info: [debug] [BOOTSTRAP] [debug] Finding btn_next_visit using ID with the contextId:  multiple: false
+2017-04-18 12:33:45:445 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.ftcash.agent:id/btn_next_visit]
+2017-04-18 12:33:45:461 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=android:id/btn_next_visit]
+2017-04-18 12:33:45:645 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[DESCRIPTION=btn_next_visit, INSTANCE=0]
+2017-04-18 12:33:45:693 - info: [debug] [BOOTSTRAP] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2017-04-18 12:33:45:693 - info: [debug] [BOOTSTRAP] [debug] Finding btn_next_visit using ID with the contextId:  multiple: false
+2017-04-18 12:33:45:693 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.ftcash.agent:id/btn_next_visit]
+2017-04-18 12:33:45:715 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=android:id/btn_next_visit]
+2017-04-18 12:33:45:808 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[DESCRIPTION=btn_next_visit, INSTANCE=0]
+2017-04-18 12:33:45:814 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":7,"value":"No element found"}
+2017-04-18 12:33:45:814 - info: [debug] Waited for 4551ms so far
+2017-04-18 12:33:46:332 - info: [debug] Pushing command to appium work queue: ["find",{"strategy":"id","selector":"btn_next_visit","context":"","multiple":false}]
+2017-04-18 12:33:46:332 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"btn_next_visit","context":"","multiple":false}}
+2017-04-18 12:33:46:332 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2017-04-18 12:33:46:332 - info: [debug] [BOOTSTRAP] [debug] Got command action: find
+2017-04-18 12:33:46:332 - info: [debug] [BOOTSTRAP] [debug] Finding btn_next_visit using ID with the contextId:  multiple: false
+2017-04-18 12:33:46:332 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.ftcash.agent:id/btn_next_visit]
+2017-04-18 12:33:46:347 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=android:id/btn_next_visit]
+2017-04-18 12:33:46:347 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[DESCRIPTION=btn_next_visit, INSTANCE=0]
+2017-04-18 12:33:46:416 - info: [debug] [BOOTSTRAP] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2017-04-18 12:33:46:416 - info: [debug] [BOOTSTRAP] [debug] Finding btn_next_visit using ID with the contextId:  multiple: false
+2017-04-18 12:33:46:416 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.ftcash.agent:id/btn_next_visit]
+2017-04-18 12:33:46:432 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=android:id/btn_next_visit]
+2017-04-18 12:33:46:447 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[DESCRIPTION=btn_next_visit, INSTANCE=0]
+2017-04-18 12:33:46:463 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":7,"value":"No element found"}
+2017-04-18 12:33:46:463 - info: [debug] Waited for 5200ms so far
+2017-04-18 12:33:46:968 - info: [debug] Pushing command to appium work queue: ["find",{"strategy":"id","selector":"btn_next_visit","context":"","multiple":false}]
+2017-04-18 12:33:46:970 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"btn_next_visit","context":"","multiple":false}}
+2017-04-18 12:33:46:970 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2017-04-18 12:33:46:970 - info: [debug] [BOOTSTRAP] [debug] Got command action: find
+2017-04-18 12:33:46:970 - info: [debug] [BOOTSTRAP] [debug] Finding btn_next_visit using ID with the contextId:  multiple: false
+2017-04-18 12:33:46:970 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.ftcash.agent:id/btn_next_visit]
+2017-04-18 12:33:46:986 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=android:id/btn_next_visit]
+2017-04-18 12:33:47:134 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[DESCRIPTION=btn_next_visit, INSTANCE=0]
+2017-04-18 12:33:47:181 - info: [debug] [BOOTSTRAP] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2017-04-18 12:33:47:181 - info: [debug] [BOOTSTRAP] [debug] Finding btn_next_visit using ID with the contextId:  multiple: false
+2017-04-18 12:33:47:181 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.ftcash.agent:id/btn_next_visit]
+2017-04-18 12:33:47:196 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=android:id/btn_next_visit]
+2017-04-18 12:33:47:214 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[DESCRIPTION=btn_next_visit, INSTANCE=0]
+2017-04-18 12:33:47:222 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":7,"value":"No element found"}
+2017-04-18 12:33:47:222 - info: [debug] Waited for 5959ms so far
+2017-04-18 12:33:47:722 - info: [debug] Pushing command to appium work queue: ["find",{"strategy":"id","selector":"btn_next_visit","context":"","multiple":false}]
+2017-04-18 12:33:47:723 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"btn_next_visit","context":"","multiple":false}}
+2017-04-18 12:33:47:723 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2017-04-18 12:33:47:723 - info: [debug] [BOOTSTRAP] [debug] Got command action: find
+2017-04-18 12:33:47:723 - info: [debug] [BOOTSTRAP] [debug] Finding btn_next_visit using ID with the contextId:  multiple: false
+2017-04-18 12:33:47:723 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.ftcash.agent:id/btn_next_visit]
+2017-04-18 12:33:47:739 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=android:id/btn_next_visit]
+2017-04-18 12:33:47:755 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[DESCRIPTION=btn_next_visit, INSTANCE=0]
+2017-04-18 12:33:47:781 - info: [debug] [BOOTSTRAP] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2017-04-18 12:33:47:782 - info: [debug] [BOOTSTRAP] [debug] Finding btn_next_visit using ID with the contextId:  multiple: false
+2017-04-18 12:33:47:782 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.ftcash.agent:id/btn_next_visit]
+2017-04-18 12:33:47:916 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=android:id/btn_next_visit]
+2017-04-18 12:33:47:925 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[DESCRIPTION=btn_next_visit, INSTANCE=0]
+2017-04-18 12:33:47:941 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":7,"value":"No element found"}
+2017-04-18 12:33:47:956 - info: [debug] Waited for 6693ms so far
+2017-04-18 12:33:48:458 - info: [debug] Pushing command to appium work queue: ["find",{"strategy":"id","selector":"btn_next_visit","context":"","multiple":false}]
+2017-04-18 12:33:48:461 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"btn_next_visit","context":"","multiple":false}}
+2017-04-18 12:33:48:461 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2017-04-18 12:33:48:461 - info: [debug] [BOOTSTRAP] [debug] Got command action: find
+2017-04-18 12:33:48:461 - info: [debug] [BOOTSTRAP] [debug] Finding btn_next_visit using ID with the contextId:  multiple: false
+2017-04-18 12:33:48:461 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.ftcash.agent:id/btn_next_visit]
+2017-04-18 12:33:48:476 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=android:id/btn_next_visit]
+2017-04-18 12:33:48:492 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[DESCRIPTION=btn_next_visit, INSTANCE=0]
+2017-04-18 12:33:48:527 - info: [debug] [BOOTSTRAP] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2017-04-18 12:33:48:527 - info: [debug] [BOOTSTRAP] [debug] Finding btn_next_visit using ID with the contextId:  multiple: false
+2017-04-18 12:33:48:527 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.ftcash.agent:id/btn_next_visit]
+2017-04-18 12:33:48:759 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=android:id/btn_next_visit]
+2017-04-18 12:33:48:859 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[DESCRIPTION=btn_next_visit, INSTANCE=0]
+2017-04-18 12:33:48:906 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":7,"value":"No element found"}
+2017-04-18 12:33:48:906 - info: [debug] Waited for 7643ms so far
+2017-04-18 12:33:49:408 - info: [debug] Pushing command to appium work queue: ["find",{"strategy":"id","selector":"btn_next_visit","context":"","multiple":false}]
+2017-04-18 12:33:49:408 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"btn_next_visit","context":"","multiple":false}}
+2017-04-18 12:33:49:408 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2017-04-18 12:33:49:408 - info: [debug] [BOOTSTRAP] [debug] Got command action: find
+2017-04-18 12:33:49:408 - info: [debug] [BOOTSTRAP] [debug] Finding btn_next_visit using ID with the contextId:  multiple: false
+2017-04-18 12:33:49:408 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.ftcash.agent:id/btn_next_visit]
+2017-04-18 12:33:49:429 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=android:id/btn_next_visit]
+2017-04-18 12:33:49:493 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[DESCRIPTION=btn_next_visit, INSTANCE=0]
+2017-04-18 12:33:49:499 - info: [debug] [BOOTSTRAP] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2017-04-18 12:33:49:515 - info: [debug] [BOOTSTRAP] [debug] Finding btn_next_visit using ID with the contextId:  multiple: false
+2017-04-18 12:33:49:516 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.ftcash.agent:id/btn_next_visit]
+2017-04-18 12:33:49:530 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=android:id/btn_next_visit]
+2017-04-18 12:33:49:545 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[DESCRIPTION=btn_next_visit, INSTANCE=0]
+2017-04-18 12:33:49:561 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":7,"value":"No element found"}
+2017-04-18 12:33:49:561 - info: [debug] Waited for 8298ms so far
+2017-04-18 12:33:50:062 - info: [debug] Pushing command to appium work queue: ["find",{"strategy":"id","selector":"btn_next_visit","context":"","multiple":false}]
+2017-04-18 12:33:50:080 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"btn_next_visit","context":"","multiple":false}}
+2017-04-18 12:33:50:080 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2017-04-18 12:33:50:080 - info: [debug] [BOOTSTRAP] [debug] Got command action: find
+2017-04-18 12:33:50:080 - info: [debug] [BOOTSTRAP] [debug] Finding btn_next_visit using ID with the contextId:  multiple: false
+2017-04-18 12:33:50:081 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.ftcash.agent:id/btn_next_visit]
+2017-04-18 12:33:50:332 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=android:id/btn_next_visit]
+2017-04-18 12:33:50:379 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[DESCRIPTION=btn_next_visit, INSTANCE=0]
+2017-04-18 12:33:50:410 - info: [debug] [BOOTSTRAP] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2017-04-18 12:33:50:410 - info: [debug] [BOOTSTRAP] [debug] Finding btn_next_visit using ID with the contextId:  multiple: false
+2017-04-18 12:33:50:410 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.ftcash.agent:id/btn_next_visit]
+2017-04-18 12:33:50:410 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=android:id/btn_next_visit]
+2017-04-18 12:33:50:410 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[DESCRIPTION=btn_next_visit, INSTANCE=0]
+2017-04-18 12:33:50:479 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":7,"value":"No element found"}
+2017-04-18 12:33:50:479 - info: [debug] Waited for 9216ms so far
+2017-04-18 12:33:50:982 - info: [debug] Pushing command to appium work queue: ["find",{"strategy":"id","selector":"btn_next_visit","context":"","multiple":false}]
+2017-04-18 12:33:50:984 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"btn_next_visit","context":"","multiple":false}}
+2017-04-18 12:33:50:984 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2017-04-18 12:33:50:984 - info: [debug] [BOOTSTRAP] [debug] Got command action: find
+2017-04-18 12:33:50:984 - info: [debug] [BOOTSTRAP] [debug] Finding btn_next_visit using ID with the contextId:  multiple: false
+2017-04-18 12:33:50:984 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.ftcash.agent:id/btn_next_visit]
+2017-04-18 12:33:51:151 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=android:id/btn_next_visit]
+2017-04-18 12:33:51:151 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[DESCRIPTION=btn_next_visit, INSTANCE=0]
+2017-04-18 12:33:51:167 - info: [debug] [BOOTSTRAP] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2017-04-18 12:33:51:167 - info: [debug] [BOOTSTRAP] [debug] Finding btn_next_visit using ID with the contextId:  multiple: false
+2017-04-18 12:33:51:167 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.ftcash.agent:id/btn_next_visit]
+2017-04-18 12:33:51:167 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=android:id/btn_next_visit]
+2017-04-18 12:33:51:236 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[DESCRIPTION=btn_next_visit, INSTANCE=0]
+2017-04-18 12:33:51:252 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":7,"value":"No element found"}
+2017-04-18 12:33:51:252 - info: [debug] Waited for 9989ms so far
+2017-04-18 12:33:51:754 - info: [debug] Pushing command to appium work queue: ["find",{"strategy":"id","selector":"btn_next_visit","context":"","multiple":false}]
+2017-04-18 12:33:51:754 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"btn_next_visit","context":"","multiple":false}}
+2017-04-18 12:33:51:754 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2017-04-18 12:33:51:754 - info: [debug] [BOOTSTRAP] [debug] Got command action: find
+2017-04-18 12:33:51:754 - info: [debug] [BOOTSTRAP] [debug] Finding btn_next_visit using ID with the contextId:  multiple: false
+2017-04-18 12:33:51:754 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.ftcash.agent:id/btn_next_visit]
+2017-04-18 12:33:51:769 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=android:id/btn_next_visit]
+2017-04-18 12:33:51:769 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[DESCRIPTION=btn_next_visit, INSTANCE=0]
+2017-04-18 12:33:51:785 - info: [debug] [BOOTSTRAP] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2017-04-18 12:33:51:785 - info: [debug] [BOOTSTRAP] [debug] Finding btn_next_visit using ID with the contextId:  multiple: false
+2017-04-18 12:33:51:785 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.ftcash.agent:id/btn_next_visit]
+2017-04-18 12:33:51:854 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=android:id/btn_next_visit]
+2017-04-18 12:33:51:876 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[DESCRIPTION=btn_next_visit, INSTANCE=0]
+2017-04-18 12:33:51:891 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":7,"value":"No element found"}
+2017-04-18 12:33:51:891 - info: [debug] Waited for 10628ms so far
+2017-04-18 12:33:52:403 - info: [debug] Pushing command to appium work queue: ["find",{"strategy":"id","selector":"btn_next_visit","context":"","multiple":false}]
+2017-04-18 12:33:52:405 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"btn_next_visit","context":"","multiple":false}}
+2017-04-18 12:33:52:405 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2017-04-18 12:33:52:405 - info: [debug] [BOOTSTRAP] [debug] Got command action: find
+2017-04-18 12:33:52:405 - info: [debug] [BOOTSTRAP] [debug] Finding btn_next_visit using ID with the contextId:  multiple: false
+2017-04-18 12:33:52:405 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.ftcash.agent:id/btn_next_visit]
+2017-04-18 12:33:52:472 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=android:id/btn_next_visit]
+2017-04-18 12:33:52:540 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[DESCRIPTION=btn_next_visit, INSTANCE=0]
+2017-04-18 12:33:52:657 - info: [debug] [BOOTSTRAP] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2017-04-18 12:33:52:657 - info: [debug] [BOOTSTRAP] [debug] Finding btn_next_visit using ID with the contextId:  multiple: false
+2017-04-18 12:33:52:657 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.ftcash.agent:id/btn_next_visit]
+2017-04-18 12:33:52:773 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=android:id/btn_next_visit]
+2017-04-18 12:33:52:804 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[DESCRIPTION=btn_next_visit, INSTANCE=0]
+2017-04-18 12:33:52:820 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":7,"value":"No element found"}
+2017-04-18 12:33:52:820 - info: [debug] Waited for 11557ms so far
+2017-04-18 12:33:53:321 - info: [debug] Pushing command to appium work queue: ["find",{"strategy":"id","selector":"btn_next_visit","context":"","multiple":false}]
+2017-04-18 12:33:53:321 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"btn_next_visit","context":"","multiple":false}}
+2017-04-18 12:33:53:321 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2017-04-18 12:33:53:321 - info: [debug] [BOOTSTRAP] [debug] Got command action: find
+2017-04-18 12:33:53:321 - info: [debug] [BOOTSTRAP] [debug] Finding btn_next_visit using ID with the contextId:  multiple: false
+2017-04-18 12:33:53:321 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.ftcash.agent:id/btn_next_visit]
+2017-04-18 12:33:53:375 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=android:id/btn_next_visit]
+2017-04-18 12:33:53:406 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[DESCRIPTION=btn_next_visit, INSTANCE=0]
+2017-04-18 12:33:53:432 - info: [debug] [BOOTSTRAP] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2017-04-18 12:33:53:432 - info: [debug] [BOOTSTRAP] [debug] Finding btn_next_visit using ID with the contextId:  multiple: false
+2017-04-18 12:33:53:432 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.ftcash.agent:id/btn_next_visit]
+2017-04-18 12:33:53:443 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=android:id/btn_next_visit]
+2017-04-18 12:33:53:543 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[DESCRIPTION=btn_next_visit, INSTANCE=0]
+2017-04-18 12:33:53:606 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":7,"value":"No element found"}
+2017-04-18 12:33:53:606 - info: [debug] Waited for 12343ms so far
+2017-04-18 12:33:54:107 - info: [debug] Pushing command to appium work queue: ["find",{"strategy":"id","selector":"btn_next_visit","context":"","multiple":false}]
+2017-04-18 12:33:54:107 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"btn_next_visit","context":"","multiple":false}}
+2017-04-18 12:33:54:107 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2017-04-18 12:33:54:107 - info: [debug] [BOOTSTRAP] [debug] Got command action: find
+2017-04-18 12:33:54:107 - info: [debug] [BOOTSTRAP] [debug] Finding btn_next_visit using ID with the contextId:  multiple: false
+2017-04-18 12:33:54:107 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.ftcash.agent:id/btn_next_visit]
+2017-04-18 12:33:54:146 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=android:id/btn_next_visit]
+2017-04-18 12:33:54:178 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[DESCRIPTION=btn_next_visit, INSTANCE=0]
+2017-04-18 12:33:54:209 - info: [debug] [BOOTSTRAP] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2017-04-18 12:33:54:209 - info: [debug] [BOOTSTRAP] [debug] Finding btn_next_visit using ID with the contextId:  multiple: false
+2017-04-18 12:33:54:209 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.ftcash.agent:id/btn_next_visit]
+2017-04-18 12:33:54:246 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=android:id/btn_next_visit]
+2017-04-18 12:33:54:309 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[DESCRIPTION=btn_next_visit, INSTANCE=0]
+2017-04-18 12:33:54:447 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":7,"value":"No element found"}
+2017-04-18 12:33:54:449 - info: [debug] Waited for 13186ms so far
+2017-04-18 12:33:54:949 - info: [debug] Pushing command to appium work queue: ["find",{"strategy":"id","selector":"btn_next_visit","context":"","multiple":false}]
+2017-04-18 12:33:54:949 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"btn_next_visit","context":"","multiple":false}}
+2017-04-18 12:33:54:949 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2017-04-18 12:33:54:949 - info: [debug] [BOOTSTRAP] [debug] Got command action: find
+2017-04-18 12:33:54:949 - info: [debug] [BOOTSTRAP] [debug] Finding btn_next_visit using ID with the contextId:  multiple: false
+2017-04-18 12:33:54:949 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.ftcash.agent:id/btn_next_visit]
+2017-04-18 12:33:54:965 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=android:id/btn_next_visit]
+2017-04-18 12:33:54:980 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[DESCRIPTION=btn_next_visit, INSTANCE=0]
+2017-04-18 12:33:55:096 - info: [debug] [BOOTSTRAP] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2017-04-18 12:33:55:096 - info: [debug] [BOOTSTRAP] [debug] Finding btn_next_visit using ID with the contextId:  multiple: false
+2017-04-18 12:33:55:096 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.ftcash.agent:id/btn_next_visit]
+2017-04-18 12:33:55:112 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=android:id/btn_next_visit]
+2017-04-18 12:33:55:112 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[DESCRIPTION=btn_next_visit, INSTANCE=0]
+2017-04-18 12:33:55:145 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":7,"value":"No element found"}
+2017-04-18 12:33:55:145 - info: [debug] Waited for 13882ms so far
+2017-04-18 12:33:55:646 - info: [debug] Pushing command to appium work queue: ["find",{"strategy":"id","selector":"btn_next_visit","context":"","multiple":false}]
+2017-04-18 12:33:55:649 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"btn_next_visit","context":"","multiple":false}}
+2017-04-18 12:33:55:649 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2017-04-18 12:33:55:649 - info: [debug] [BOOTSTRAP] [debug] Got command action: find
+2017-04-18 12:33:55:649 - info: [debug] [BOOTSTRAP] [debug] Finding btn_next_visit using ID with the contextId:  multiple: false
+2017-04-18 12:33:55:649 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.ftcash.agent:id/btn_next_visit]
+2017-04-18 12:33:55:767 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=android:id/btn_next_visit]
+2017-04-18 12:33:55:782 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[DESCRIPTION=btn_next_visit, INSTANCE=0]
+2017-04-18 12:33:55:798 - info: [debug] [BOOTSTRAP] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2017-04-18 12:33:55:798 - info: [debug] [BOOTSTRAP] [debug] Finding btn_next_visit using ID with the contextId:  multiple: false
+2017-04-18 12:33:55:798 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.ftcash.agent:id/btn_next_visit]
+2017-04-18 12:33:55:814 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=android:id/btn_next_visit]
+2017-04-18 12:33:55:829 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[DESCRIPTION=btn_next_visit, INSTANCE=0]
+2017-04-18 12:33:55:889 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":7,"value":"No element found"}
+2017-04-18 12:33:55:889 - info: [debug] Waited for 14626ms so far
+2017-04-18 12:33:56:401 - info: [debug] Pushing command to appium work queue: ["find",{"strategy":"id","selector":"btn_next_visit","context":"","multiple":false}]
+2017-04-18 12:33:56:401 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"btn_next_visit","context":"","multiple":false}}
+2017-04-18 12:33:56:401 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2017-04-18 12:33:56:401 - info: [debug] [BOOTSTRAP] [debug] Got command action: find
+2017-04-18 12:33:56:401 - info: [debug] [BOOTSTRAP] [debug] Finding btn_next_visit using ID with the contextId:  multiple: false
+2017-04-18 12:33:56:401 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.ftcash.agent:id/btn_next_visit]
+2017-04-18 12:33:56:416 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=android:id/btn_next_visit]
+2017-04-18 12:33:56:432 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[DESCRIPTION=btn_next_visit, INSTANCE=0]
+2017-04-18 12:33:56:450 - info: [debug] [BOOTSTRAP] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2017-04-18 12:33:56:450 - info: [debug] [BOOTSTRAP] [debug] Finding btn_next_visit using ID with the contextId:  multiple: false
+2017-04-18 12:33:56:450 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.ftcash.agent:id/btn_next_visit]
+2017-04-18 12:33:56:517 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=android:id/btn_next_visit]
+2017-04-18 12:33:56:579 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[DESCRIPTION=btn_next_visit, INSTANCE=0]
+2017-04-18 12:33:56:610 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":7,"value":"No element found"}
+2017-04-18 12:33:56:610 - info: [debug] Condition unmet after 15347ms. Timing out.
+2017-04-18 12:33:56:610 - info: [debug] Responding to client with error: {"status":7,"value":{"message":"An element could not be located on the page using the given search parameters.","origValue":"No element found"},"sessionId":"6cfd1896-2926-42df-9229-8812dba57821"}
+2017-04-18 12:33:56:610 - info: <-- POST /wd/hub/session/6cfd1896-2926-42df-9229-8812dba57821/element 500 15352.848 ms - 195 
+2017-04-18 12:33:56:643 - info: --> GET /wd/hub/session/6cfd1896-2926-42df-9229-8812dba57821/screenshot {}
+2017-04-18 12:33:56:643 - info: [debug] executing cmd: "E:\work at ftcash\softwares\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe" -s 5ce6eee1 shell "/system/bin/rm /data/local/tmp/screenshot.png; /system/bin/screencap -p /data/local/tmp/screenshot.png "
+2017-04-18 12:33:58:138 - info: [debug] executing cmd: "E:\work at ftcash\softwares\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools\adb.exe" -s 5ce6eee1 pull /data/local/tmp/screenshot.png "C:\\Users\\user\\AppData\\Local\\Temp\\appium117318-2788-h2ck0r.png"
+2017-04-18 12:33:58:407 - info: [debug] Responding to client with success: {"status":0,"value":"iVBORw0KGgoAAAANSUhEUgAABDgAAAeACAYAAAArYecKAAAABHNCSVQICAgIfAhkiAAAIABJREFUeJzs3Xd4U+UbxvE7o3vRAS1tKWXvvUHZS1BAxS3uiT9FBNwiigMRcC9QceLemyFDmbL3KnuVUrpLZ/L7oxCa7p1Ev5/r0qsnOTnnbXoonDvv+zyG9n3mWgUAAAAAAODCjI4eAAAAAAAAQGURcAAAAAAAAJdHwAEAAAAAAFweAQcAAAAAAHB5BBwAAAAAAMDlEXAAAAAAAACXR8ABAAAAAABcHgEHAAAAAABweQQcAAAAAADA5RFwAAAAAAAAl0fAAQAAAAAAXB4BBwAAAAAAcHlmRw8AAAAAAGqar4+7Amt5ytPDJDc3kzzcTXJ3N+mma1orPMxXCYkZOnX6jOLi0/XXyiNaseaoo4cMoBQEHAAAAPjPCavjo4bRtdSkYaDCw3wVWttHQUGeCgzwlJ+vuwwGg/x83SVJKalZslqtSknNUmpatk7Fp+vEyTQdOZaiPfsStO9Aok6cTHPwd+R4d97UXu98sNHRwyhRcKCXggI9FVjLU16eRd8KBdbyVFSkv6Ii/W2PXX1pCyUlZ2r95litWHNUX/+4q6aGDKAcDO37zLU6ehDnhIf5KjjIS1u2xzl6KJKkiLq+ys218hcWAACAi2tQP0A9ukSoY9tQdWwbqsBanlV6/ITEDK3fHKv1m2O18p+j2n8wqUqP7+xuua6t7r29ozr0/cDRQylScJCXoiL85e/nXuq+D43rprqhviXuczw2VZ98tV3zvt5eVUMEUAWcKuD4au5IRdcL0LMvrdT3v+xx6FjqRfjrmw9G6eCRJF1x8w8OHQsAAADKLzoqQBcPbqQBfeorul5AjZ77wOEkLVp6UD/Pj9GBQ//usGPMla30wNgukuR0AUeAv4eiIv0VVI5A69nHe8vH261M++7dn6AP5m3VLwtiKjpEAFXIqZaoREX6y2w26ooRzbRgyQGl...","sessionId":"6cfd1896-2926-42df-9229-8812dba57821"}
+2017-04-18 12:33:58:407 - info: <-- GET /wd/hub/session/6cfd1896-2926-42df-9229-8812dba57821/screenshot 200 1769.572 ms - 99230 {"status":0,"value":"iVBORw0KGgoAAAANSUhEUgAABDgAAAeACAYAAAArYecKAAAABHNCSVQICAgIfAhkiAAAIABJREFUeJzs3Xd4U+UbxvE7o3vRAS1tKWXvvUHZS1BAxS3uiT9FBNwiigMRcC9QceLemyFDmbL3KnuVUrpLZ/L7oxCa7p1Ev5/r0qsnOTnnbXoonDvv+zyG9n3mWgUAAAAAAODCjI4eAAAAAAAAQGURcAAAAAAAAJdHwAEAAAAAAFweAQcAAAAAAHB5BBwAAAAAAMDlEXAAAAAAAACXR8ABAAAAAABcHgEHAAAAAABweQQcAAAAAADA5RFwAAAAAAAAl0fAAQAAAAAAXB4BBwAAAAAAcHlmRw8AAAAAAGqar4+7Amt5ytPDJDc3kzzcTXJ3N+mma1orPMxXCYkZOnX6jOLi0/XXyiNaseaoo4cMoBQEHAAAAPjPCavjo4bRtdSkYaDCw3wVWttHQUGeCgzwlJ+vuwwGg/x83SVJKalZslqtSknNUmpatk7Fp+vEyTQdOZaiPfsStO9Aok6cTHPwd+R4d97UXu98sNHRwyhRcKCXggI9FVjLU16eRd8KBdbyVFSkv6Ii/W2PXX1pCyUlZ2r95litWHNUX/+4q6aGDKAcDO37zLU6ehDnhIf5KjjIS1u2xzl6KJKkiLq+ys218hcWAACAi2tQP0A9ukSoY9tQdWwbqsBanlV6/ITEDK3fHKv1m2O18p+j2n8wqUqP7+xuua6t7r29ozr0/cDRQylScJCXoiL85e/nXuq+D43rprqhviXuczw2VZ98tV3zvt5eVUMEUAWcKuD4au5IRdcL0LMvrdT3v+xx6FjqRfjrmw9G6eCRJF1x8w8OHQsAAADKLzoqQBcPbqQBfeorul5AjZ77wOEkLVp6UD/Pj9GBQ//usGPMla30wNgukuR0AUeAv4eiIv0VVI5A69nHe8vH261M++7dn6AP5m3VLwtiKjpEAFXIqZaoREX6y2w26ooRzbRgyQGl...","sessionId":"6cfd1896-2926-42df-9229-8812dba57821"}

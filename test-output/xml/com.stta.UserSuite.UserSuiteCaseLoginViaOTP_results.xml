@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="UserSuiteCaseLoginViaOTPData"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="4.182">
+  <properties />
+  
+  
+            <testcase name="UserSuiteCaseLoginViaOTPTest" time="0.641" classname="com.stta.UserSuite.UserSuiteCaseLoginViaOTP" />
+                <testcase name="UserSuiteCaseLoginViaOTPTest" time="3.541" classname="com.stta.UserSuite.UserSuiteCaseLoginViaOTP" />
+      
+</testsuite>

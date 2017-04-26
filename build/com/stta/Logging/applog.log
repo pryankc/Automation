@@ -1,0 +1,27 @@
+2017-02-21 19:24:39,195 - rootLogger - INFO - All Excel Files Initialised successfully.
+2017-02-21 19:24:39,196 - rootLogger - INFO - Param.properties file loaded successfully.
+2017-02-21 19:24:39,197 - rootLogger - INFO - Objects.properties file loaded successfully.
+2017-02-21 19:24:39,230 - rootLogger - INFO - All Excel Files Initialised successfully.
+2017-02-21 19:24:39,230 - rootLogger - INFO - Param.properties file loaded successfully.
+2017-02-21 19:24:39,230 - rootLogger - INFO - Objects.properties file loaded successfully.
+2017-02-21 19:24:39,231 - rootLogger - INFO - BasicUIAutoTestSuiteCaseBasicFl : Execution started.
+2017-02-21 19:24:42,257 - rootLogger - INFO - Firefox Driver Instance loaded successfully.
+2017-02-21 19:24:42,388 - rootLogger - INFO - BasicUIAutoTestSuiteCaseBasicFl : Reporting test data set line 1 as PASS In excel.
+2017-02-21 19:24:43,921 - rootLogger - INFO - BasicUIAutoTestSuiteCaseBasicFl : Reporting test data set line 2 as FAIL In excel.
+2017-02-21 19:24:47,423 - rootLogger - INFO - BasicUIAutoTestSuiteCaseBasicFl : Reporting test data set line 3 as FAIL In excel.
+2017-02-21 19:24:47,438 - rootLogger - INFO - BasicUIAutoTestSuiteCaseBasicFl : Reporting test data set line 4 as FAIL In excel.
+2017-02-21 19:24:47,451 - rootLogger - INFO - BasicUIAutoTestSuiteCaseBasicFl : Reporting test data set line 5 as FAIL In excel.
+2017-02-21 19:24:47,465 - rootLogger - INFO - BasicUIAutoTestSuiteCaseBasicFl : Reporting test data set line 6 as FAIL In excel.
+2017-02-21 19:24:47,477 - rootLogger - INFO - BasicUIAutoTestSuiteCaseBasicFl : Reporting test data set line 7 as FAIL In excel.
+2017-02-21 19:24:47,488 - rootLogger - INFO - BasicUIAutoTestSuiteCaseBasicFl : Reporting test data set line 8 as FAIL In excel.
+2017-02-21 19:24:47,501 - rootLogger - INFO - BasicUIAutoTestSuiteCaseBasicFl : Reporting test data set line 9 as FAIL In excel.
+2017-02-21 19:24:47,511 - rootLogger - INFO - BasicUIAutoTestSuiteCaseBasicFl : Reporting test data set line 10 as FAIL In excel.
+2017-02-21 19:24:47,524 - rootLogger - INFO - BasicUIAutoTestSuiteCaseBasicFl : Reporting test data set line 11 as FAIL In excel.
+2017-02-21 19:24:47,535 - rootLogger - INFO - BasicUIAutoTestSuiteCaseBasicFl : Reporting test data set line 12 as FAIL In excel.
+2017-02-21 19:24:47,548 - rootLogger - INFO - BasicUIAutoTestSuiteCaseBasicFl : Reporting test data set line 13 as FAIL In excel.
+2017-02-21 19:24:47,561 - rootLogger - INFO - BasicUIAutoTestSuiteCaseBasicFl : Reporting test data set line 14 as FAIL In excel.
+2017-02-21 19:24:47,574 - rootLogger - INFO - BasicUIAutoTestSuiteCaseBasicFl : Reporting test data set line 15 as FAIL In excel.
+2017-02-21 19:24:47,585 - rootLogger - INFO - BasicUIAutoTestSuiteCaseBasicFl : Reporting test data set line 16 as FAIL In excel.
+2017-02-21 19:24:47,608 - rootLogger - INFO - BasicUIAutoTestSuiteCaseBasicFl : Reporting test data set line 17 as FAIL In excel.
+2017-02-21 19:24:47,621 - rootLogger - INFO - BasicUIAutoTestSuiteCaseBasicFl : Reporting test data set line 18 as FAIL In excel.
+2017-02-21 19:24:47,631 - rootLogger - INFO - BasicUIAutoTestSuiteCaseBasicFl : Reporting test data set line 19 as FAIL In excel.

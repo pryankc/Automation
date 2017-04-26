@@ -1,0 +1,33 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="BasicUIAutoTestSuite"  >
+
+<!-- If add more test cases In this suite, You need to add them as bellow. -->
+<!-- 
+ <test name="BasicUIAutoTestSuiteCaseBasicFl">
+    <classes>
+        <class name="com.stta.BasicUIAutoTestSuite.BasicUIAutoTestSuiteCaseBasicFl" ></class>  
+    </classes>
+</test>   -->
+<!--  <test name="BasicUIAutoTestSuiteCaseM">
+	<parameter name="appiumnode" value="127.0.0.1;4734;5434"></parameter>
+	<parameter name="caps" value="96679679;Android;6.0.1;Android;com.ftcash.agent;com.ftcash.agent.MainActivity;com.ftcash.agent.MainActivity;http://127.0.0.1:4734/wd/hub"></parameter>
+    <classes>
+        <class name="com.stta.BasicUIAutoTestSuite.BasicUIAutoTestSuiteCaseM" ></class>  
+    </classes>
+</test>  -->
+<test name="BasicUIAutoTestSuiteCaseM1">
+	<parameter name="appiumnode" value="127.0.0.1;4736;5436"></parameter>
+	<parameter name="caps" value="5ce6eee1;Android;6.0.1;Android;com.ftcash.agent;com.ftcash.agent.MainActivity;com.ftcash.agent.MainActivity;http://127.0.0.1:4736/wd/hub"></parameter>
+    <classes>
+        <class name="com.stta.BasicUIAutoTestSuite.BasicUIAutoTestSuiteCaseM" ></class>  
+    </classes>
+</test>
+<!-- <test name="BasicUIAutoTestSuiteCaseM1">
+	<parameter name="appiumnode" value="127.0.0.1;4735;5435"></parameter>
+	<parameter name="caps" value="5ce6eee1;Android;6.0.1;Android;com.ftcash.customer;com.ftcash.customer.MainActivity;com.ftcash.customer.MainActivity;http://127.0.0.1:4735/wd/hub"></parameter>
+    <classes>
+        <class name="com.stta.BasicUIAutoTestSuite.BasicUIAutoTestSuiteCaseM" ></class>  
+    </classes>
+</test> -->
+
+</suite>

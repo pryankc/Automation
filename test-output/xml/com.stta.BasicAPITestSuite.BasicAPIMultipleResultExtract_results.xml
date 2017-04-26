@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="BasicAPIResultExtract"
+           tests="32"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="28.821">
+  <properties />
+  
+  
+            <testcase name="BasicAPIMultipleResultExtractTest" time="0.821" classname="com.stta.BasicAPITestSuite.BasicAPIMultipleResultExtract" />
+                <testcase name="BasicAPIMultipleResultExtractTest" time="0.811" classname="com.stta.BasicAPITestSuite.BasicAPIMultipleResultExtract" />
+                <testcase name="BasicAPIMultipleResultExtractTest" time="0.916" classname="com.stta.BasicAPITestSuite.BasicAPIMultipleResultExtract" />
+                <testcase name="BasicAPIMultipleResultExtractTest" time="0.902" classname="com.stta.BasicAPITestSuite.BasicAPIMultipleResultExtract" />
+                <testcase name="BasicAPIMultipleResultExtractTest" time="0.818" classname="com.stta.BasicAPITestSuite.BasicAPIMultipleResultExtract" />
+                <testcase name="BasicAPIMultipleResultExtractTest" time="0.884" classname="com.stta.BasicAPITestSuite.BasicAPIMultipleResultExtract" />
+                <testcase name="BasicAPIMultipleResultExtractTest" time="0.853" classname="com.stta.BasicAPITestSuite.BasicAPIMultipleResultExtract" />
+                <testcase name="BasicAPIMultipleResultExtractTest" time="0.774" classname="com.stta.BasicAPITestSuite.BasicAPIMultipleResultExtract" />
+                <testcase name="BasicAPIMultipleResultExtractTest" time="0.872" classname="com.stta.BasicAPITestSuite.BasicAPIMultipleResultExtract" />
+                <testcase name="BasicAPIMultipleResultExtractTest" time="0.890" classname="com.stta.BasicAPITestSuite.BasicAPIMultipleResultExtract" />
+                <testcase name="BasicAPIMultipleResultExtractTest" time="0.833" classname="com.stta.BasicAPITestSuite.BasicAPIMultipleResultExtract" />
+                <testcase name="BasicAPIMultipleResultExtractTest" time="0.905" classname="com.stta.BasicAPITestSuite.BasicAPIMultipleResultExtract" />
+                <testcase name="BasicAPIMultipleResultExtractTest" time="0.885" classname="com.stta.BasicAPITestSuite.BasicAPIMultipleResultExtract" />
+                <testcase name="BasicAPIMultipleResultExtractTest" time="0.751" classname="com.stta.BasicAPITestSuite.BasicAPIMultipleResultExtract" />
+                <testcase name="BasicAPIMultipleResultExtractTest" time="0.857" classname="com.stta.BasicAPITestSuite.BasicAPIMultipleResultExtract" />
+                <testcase name="BasicAPIMultipleResultExtractTest" time="0.830" classname="com.stta.BasicAPITestSuite.BasicAPIMultipleResultExtract" />
+                <testcase name="BasicAPIMultipleResultExtractTest" time="0.803" classname="com.stta.BasicAPITestSuite.BasicAPIMultipleResultExtract" />
+                <testcase name="BasicAPIMultipleResultExtractTest" time="0.873" classname="com.stta.BasicAPITestSuite.BasicAPIMultipleResultExtract" />
+                <testcase name="BasicAPIMultipleResultExtractTest" time="2.163" classname="com.stta.BasicAPITestSuite.BasicAPIMultipleResultExtract" />
+                <testcase name="BasicAPIMultipleResultExtractTest" time="0.804" classname="com.stta.BasicAPITestSuite.BasicAPIMultipleResultExtract" />
+                <testcase name="BasicAPIMultipleResultExtractTest" time="0.858" classname="com.stta.BasicAPITestSuite.BasicAPIMultipleResultExtract" />
+                <testcase name="BasicAPIMultipleResultExtractTest" time="0.835" classname="com.stta.BasicAPITestSuite.BasicAPIMultipleResultExtract" />
+                <testcase name="BasicAPIMultipleResultExtractTest" time="0.837" classname="com.stta.BasicAPITestSuite.BasicAPIMultipleResultExtract" />
+                <testcase name="BasicAPIMultipleResultExtractTest" time="0.851" classname="com.stta.BasicAPITestSuite.BasicAPIMultipleResultExtract" />
+                <testcase name="BasicAPIMultipleResultExtractTest" time="1.076" classname="com.stta.BasicAPITestSuite.BasicAPIMultipleResultExtract" />
+                <testcase name="BasicAPIMultipleResultExtractTest" time="0.822" classname="com.stta.BasicAPITestSuite.BasicAPIMultipleResultExtract" />
+                <testcase name="BasicAPIMultipleResultExtractTest" time="0.906" classname="com.stta.BasicAPITestSuite.BasicAPIMultipleResultExtract" />
+                <testcase name="BasicAPIMultipleResultExtractTest" time="1.069" classname="com.stta.BasicAPITestSuite.BasicAPIMultipleResultExtract" />
+                <testcase name="BasicAPIMultipleResultExtractTest" time="0.821" classname="com.stta.BasicAPITestSuite.BasicAPIMultipleResultExtract" />
+                <testcase name="BasicAPIMultipleResultExtractTest" time="0.827" classname="com.stta.BasicAPITestSuite.BasicAPIMultipleResultExtract" />
+                <testcase name="BasicAPIMultipleResultExtractTest" time="0.843" classname="com.stta.BasicAPITestSuite.BasicAPIMultipleResultExtract" />
+                <testcase name="BasicAPIMultipleResultExtractTest" time="0.831" classname="com.stta.BasicAPITestSuite.BasicAPIMultipleResultExtract" />
+      
+</testsuite>

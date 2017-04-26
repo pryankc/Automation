@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [APITestSuite]">
+  <listeners>
+    <listener class-name="com.stta.utility.ScreenshotUtility"/>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test name="BasicAPIResultMultipleExtract1(failed)">
+    <classes>
+      <class name="com.stta.BasicAPITestSuite.BasicAPIMultipleResultExtract1">
+        <methods>
+          <include name="checkSuiteToRun"/>
+          <include name="checkCaseToRun"/>
+          <include name="reporterDataResults"/>
+          <include name="closeBrowser"/>
+          <include name="BasicAPIMultipleResultExtract1Test"/>
+        </methods>
+      </class> <!-- com.stta.BasicAPITestSuite.BasicAPIMultipleResultExtract1 -->
+    </classes>
+  </test> <!-- BasicAPIResultMultipleExtract1(failed) -->
+</suite> <!-- Failed suite [APITestSuite] -->

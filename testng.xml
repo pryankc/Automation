@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<!-- Find More Tutorials On WebDriver at -> http://software-testing-tutorials-automation.blogspot.com -->
+<suite name="Suite" >
+	
+	<listeners> 
+		<listener class-name="com.stta.utility.ScreenshotUtility"></listener> 
+		<listener class-name="org.uncommons.reportng.HTMLReporter"/>
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+ 	</listeners>
+ 	
+	<suite-files>
+<!-- If you have more test suites, Please add them bellow. -->
+<!--   		<suite-file path="./SuiteOne.xml" />	
+	 	<suite-file path="./SuiteTwo.xml" />
+	 	<suite-file path="./BasicAPITestSuite.xml" />	
+	 		 <suite-file path="./BasicUIAutoTestSuite.xml" /> -->
+ 		
+ 		<suite-file path="./BasicAPITestSuite.xml" />
+  
+  </suite-files>
+  
+ </suite>

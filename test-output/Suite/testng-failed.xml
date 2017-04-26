@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.stta.SuiteTwo.SuiteTwoCaseOne">
+        <methods>
+          <include name="checkCaseToRun"/>
+          <include name="reporterDataResults"/>
+          <include name="SuiteTwoCaseOneTest" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- com.stta.SuiteTwo.SuiteTwoCaseOne -->
+      <class name="com.stta.SuiteOne.SuiteOneCaseOne">
+        <methods>
+          <include name="reporterDataResults"/>
+          <include name="checkCaseToRun"/>
+          <include name="closeBrowser"/>
+          <include name="SuiteOneCaseOneTest" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- com.stta.SuiteOne.SuiteOneCaseOne -->
+      <class name="com.stta.SuiteOne.SuiteOneCaseTwo">
+        <methods>
+          <include name="reporterDataResults"/>
+          <include name="checkCaseToRun"/>
+          <include name="SuiteOneCaseTwoTest" invocation-numbers="0 1"/>
+          <include name="checkSuiteToRun"/>
+        </methods>
+      </class> <!-- com.stta.SuiteOne.SuiteOneCaseTwo -->
+      <class name="com.stta.SuiteTwo.SuiteTwoCaseTwo">
+        <methods>
+          <include name="SuiteTwoCaseTwoTest" invocation-numbers="0 1"/>
+          <include name="checkSuiteToRun"/>
+          <include name="checkCaseToRun"/>
+          <include name="reporterDataResults"/>
+        </methods>
+      </class> <!-- com.stta.SuiteTwo.SuiteTwoCaseTwo -->
+      <class name="com.stta.BasicAPITestSuite.BasicAPITestSuiteCaseSF">
+        <methods>
+          <include name="checkSuiteToRun"/>
+          <include name="reporterDataResults"/>
+          <include name="closeBrowser"/>
+          <include name="checkCaseToRun"/>
+          <include name="BasicAPITestSuiteCaseSFTestTest" invocation-numbers="1"/>
+        </methods>
+      </class> <!-- com.stta.BasicAPITestSuite.BasicAPITestSuiteCaseSF -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
